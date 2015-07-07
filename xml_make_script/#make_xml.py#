@@ -1306,8 +1306,6 @@ def make_xml(seq_data, model = 'sc', file_name = 'TEST_FILE'):
     return template_replace
 
 
-
-
 ### parse everything through the command line
 seq_data = parse_fasta(sys.argv[1])
 template_name = re.sub('[.]fasta', '', sys.argv[1])
