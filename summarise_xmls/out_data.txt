@@ -1,0 +1,18 @@
+e_faecium_clade2_rc_ucld_constant.mle.log
+log marginal likelihood (using path sampling) from pathLikelihood.delta = -7613.984506584908
+log marginal likelihood (using stepping stone sampling) from pathLikelihood.delta = -7616.067274914139
+e_faecium_clade2_rs_ucld_bs.mle.log
+log marginal likelihood (using path sampling) from pathLikelihood.delta = -7599.170868735069
+log marginal likelihood (using stepping stone sampling) from pathLikelihood.delta = -7601.203636779642
+st239_complete_rc_ucld_constant.mle.log
+log marginal likelihood (using path sampling) from pathLikelihood.delta = -20959.886374843798
+log marginal likelihood (using stepping stone sampling) from pathLikelihood.delta = -20863.96422530456
+st239_complete_sc_strict_constant.mle.log
+log marginal likelihood (using path sampling) from pathLikelihood.delta = -19394.906959070453
+log marginal likelihood (using stepping stone sampling) from pathLikelihood.delta = -19352.165958593258
+st93_dated_rc_ucld_constant.mle.log
+log marginal likelihood (using path sampling) from pathLikelihood.delta = -574.0750807609738
+log marginal likelihood (using stepping stone sampling) from pathLikelihood.delta = -575.4133745620924
+st93_dated_rs_ucld_bs.mle.log
+log marginal likelihood (using path sampling) from pathLikelihood.delta = -573.8736768340004
+log marginal likelihood (using stepping stone sampling) from pathLikelihood.delta = -574.3408062224671

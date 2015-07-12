@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<beast>
+<pathSamplingAnalysis fileName="temp_mle.log">
+<likelihoodColumn name="pathLikelihood.delta"/>
+<thetaColumn name="pathLikelihood.theta"/>
+</pathSamplingAnalysis>
+<steppingStoneSamplingAnalysis fileName="temp_mle.log">
+<likelihoodColumn name="pathLikelihood.delta"/>
+<thetaColumn name="pathLikelihood.theta"/>
+</steppingStoneSamplingAnalysis>
+</beast>

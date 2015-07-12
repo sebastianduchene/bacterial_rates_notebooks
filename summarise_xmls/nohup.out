@@ -1,0 +1,2219 @@
+
+                  BEAST v1.8.2, 2002-2015
+       Bayesian Evolutionary Analysis Sampling Trees
+                 Designed and developed by
+   Alexei J. Drummond, Andrew Rambaut and Marc A. Suchard
+                              
+               Department of Computer Science
+                   University of Auckland
+                  alexei@cs.auckland.ac.nz
+                              
+             Institute of Evolutionary Biology
+                  University of Edinburgh
+                     a.rambaut@ed.ac.uk
+                              
+              David Geffen School of Medicine
+           University of California, Los Angeles
+                     msuchard@ucla.edu
+                              
+                Downloads, Help & Resources:
+                 	http://beast.bio.ed.ac.uk
+                              
+Source code distributed under the GNU Lesser General Public License:
+            	http://code.google.com/p/beast-mcmc
+                              
+                     BEAST developers:
+	Alex Alekseyenko, Guy Baele, Trevor Bedford, Filip Bielejec, Erik Bloomquist, Matthew Hall,
+	Joseph Heled, Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li,
+	Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel,
+          	Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                              
+                         Thanks to:
+    	Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Using BEAGLE library v1.x for accelerated, parallel likelihood evaluation
+2009-2013, BEAGLE Working Group - http://beagle-lib.googlecode.com/
+Citation: Ayres et al (2012) Systematic Biology 61: 170-173 | doi:10.1093/sysbio/syr100
+
+WARNING: You are currenly using BEAGLE v1.x. For best performance and compatibility
+with models in BEAST, please upgrade to BEAGLE v2.x at http://beagle-lib.googlecode.com/
+
+
+Random number seed: 1436620041709
+
+
+Failed to load parser: dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+line = dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+
+
+
+Loading additional development parsers from development_parsers.properties, which is additional set of parsers only available for development version ...
+
+WARNING: parser - dr.app.beagle.multidimensionalscaling.MultiDimensionalScalingLikelihood in development_parsers.properties is duplicated, which is REPLACING the same parser loaded previously.
+
+Parsing XML file: e_faecium_clade2_rs.xml
+  File encoding: MacRoman
+Looking for plugins in /Users/sebastianducheneAIr/Desktop/sandbox/bacterial_rates_notebooks/summarise_xmls/plugins
+dr.xml.XMLParseException: The '<taxa>' element with id, 'taxa', is incorrectly constructed.
+The following was expected:
+Any number of ELEMENT of type Taxa REQUIRED
+	at dr.xml.AbstractXMLObjectParser.parseXMLObject(Unknown Source)
+	at dr.xml.XMLParser.convert(Unknown Source)
+	at dr.xml.XMLParser.convert(Unknown Source)
+	at dr.xml.XMLParser.parse(Unknown Source)
+	at dr.app.beast.BeastMain.<init>(Unknown Source)
+	at dr.app.beast.BeastMain.main(Unknown Source)
+Jul 11, 2015 3:07:22 PM dr.app.beast.BeastMain <init>
+SEVERE: Parsing error - poorly formed BEAST file, e_faecium_clade2_rs.xml:
+The '<taxa>' element with id, 'taxa', is incorrectly constructed.
+The following was expected:
+Any number of ELEMENT of type Taxa REQUIRED
+java.lang.RuntimeException: Terminate
+	at dr.app.beast.BeastMain.<init>(Unknown Source)
+	at dr.app.beast.BeastMain.main(Unknown Source)
+
+                  BEAST v1.8.2, 2002-2015
+       Bayesian Evolutionary Analysis Sampling Trees
+                 Designed and developed by
+   Alexei J. Drummond, Andrew Rambaut and Marc A. Suchard
+                              
+               Department of Computer Science
+                   University of Auckland
+                  alexei@cs.auckland.ac.nz
+                              
+             Institute of Evolutionary Biology
+                  University of Edinburgh
+                     a.rambaut@ed.ac.uk
+                              
+              David Geffen School of Medicine
+           University of California, Los Angeles
+                     msuchard@ucla.edu
+                              
+                Downloads, Help & Resources:
+                 	http://beast.bio.ed.ac.uk
+                              
+Source code distributed under the GNU Lesser General Public License:
+            	http://code.google.com/p/beast-mcmc
+                              
+                     BEAST developers:
+	Alex Alekseyenko, Guy Baele, Trevor Bedford, Filip Bielejec, Erik Bloomquist, Matthew Hall,
+	Joseph Heled, Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li,
+	Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel,
+          	Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                              
+                         Thanks to:
+    	Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Using BEAGLE library v1.x for accelerated, parallel likelihood evaluation
+2009-2013, BEAGLE Working Group - http://beagle-lib.googlecode.com/
+Citation: Ayres et al (2012) Systematic Biology 61: 170-173 | doi:10.1093/sysbio/syr100
+
+WARNING: You are currenly using BEAGLE v1.x. For best performance and compatibility
+with models in BEAST, please upgrade to BEAGLE v2.x at http://beagle-lib.googlecode.com/
+
+
+Random number seed: 1436620047047
+
+Jul 11, 2015 3:07:27 PM dr.app.beast.BeastMain <init>
+SEVERE: File error: e_faecium_clade2_rc.xml (No such file or directory)
+java.lang.RuntimeException: Terminate
+	at dr.app.beast.BeastMain.<init>(Unknown Source)
+	at dr.app.beast.BeastMain.main(Unknown Source)
+
+                  BEAST v1.8.2, 2002-2015
+       Bayesian Evolutionary Analysis Sampling Trees
+                 Designed and developed by
+   Alexei J. Drummond, Andrew Rambaut and Marc A. Suchard
+                              
+               Department of Computer Science
+                   University of Auckland
+                  alexei@cs.auckland.ac.nz
+                              
+             Institute of Evolutionary Biology
+                  University of Edinburgh
+                     a.rambaut@ed.ac.uk
+                              
+              David Geffen School of Medicine
+           University of California, Los Angeles
+                     msuchard@ucla.edu
+                              
+                Downloads, Help & Resources:
+                 	http://beast.bio.ed.ac.uk
+                              
+Source code distributed under the GNU Lesser General Public License:
+            	http://code.google.com/p/beast-mcmc
+                              
+                     BEAST developers:
+	Alex Alekseyenko, Guy Baele, Trevor Bedford, Filip Bielejec, Erik Bloomquist, Matthew Hall,
+	Joseph Heled, Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li,
+	Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel,
+          	Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                              
+                         Thanks to:
+    	Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Using BEAGLE library v1.x for accelerated, parallel likelihood evaluation
+2009-2013, BEAGLE Working Group - http://beagle-lib.googlecode.com/
+Citation: Ayres et al (2012) Systematic Biology 61: 170-173 | doi:10.1093/sysbio/syr100
+
+WARNING: You are currenly using BEAGLE v1.x. For best performance and compatibility
+with models in BEAST, please upgrade to BEAGLE v2.x at http://beagle-lib.googlecode.com/
+
+
+Random number seed: 1436620057446
+
+Jul 11, 2015 3:07:37 PM dr.app.beast.BeastMain <init>
+SEVERE: File error: e_faecium_clade2_rc.xml (No such file or directory)
+java.lang.RuntimeException: Terminate
+	at dr.app.beast.BeastMain.<init>(Unknown Source)
+	at dr.app.beast.BeastMain.main(Unknown Source)
+
+                  BEAST v1.8.2, 2002-2015
+       Bayesian Evolutionary Analysis Sampling Trees
+                 Designed and developed by
+   Alexei J. Drummond, Andrew Rambaut and Marc A. Suchard
+                              
+               Department of Computer Science
+                   University of Auckland
+                  alexei@cs.auckland.ac.nz
+                              
+             Institute of Evolutionary Biology
+                  University of Edinburgh
+                     a.rambaut@ed.ac.uk
+                              
+              David Geffen School of Medicine
+           University of California, Los Angeles
+                     msuchard@ucla.edu
+                              
+                Downloads, Help & Resources:
+                 	http://beast.bio.ed.ac.uk
+                              
+Source code distributed under the GNU Lesser General Public License:
+            	http://code.google.com/p/beast-mcmc
+                              
+                     BEAST developers:
+	Alex Alekseyenko, Guy Baele, Trevor Bedford, Filip Bielejec, Erik Bloomquist, Matthew Hall,
+	Joseph Heled, Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li,
+	Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel,
+          	Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                              
+                         Thanks to:
+    	Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Using BEAGLE library v1.x for accelerated, parallel likelihood evaluation
+2009-2013, BEAGLE Working Group - http://beagle-lib.googlecode.com/
+Citation: Ayres et al (2012) Systematic Biology 61: 170-173 | doi:10.1093/sysbio/syr100
+
+WARNING: You are currenly using BEAGLE v1.x. For best performance and compatibility
+with models in BEAST, please upgrade to BEAGLE v2.x at http://beagle-lib.googlecode.com/
+
+
+Random number seed: 1436620069995
+
+
+Failed to load parser: dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+line = dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+
+
+
+Loading additional development parsers from development_parsers.properties, which is additional set of parsers only available for development version ...
+
+WARNING: parser - dr.app.beagle.multidimensionalscaling.MultiDimensionalScalingLikelihood in development_parsers.properties is duplicated, which is REPLACING the same parser loaded previously.
+
+Parsing XML file: e_faecium_clade2_rs.xml
+  File encoding: MacRoman
+Looking for plugins in /Users/sebastianducheneAIr/Desktop/sandbox/bacterial_rates_notebooks/summarise_xmls/plugins
+dr.xml.XMLParseException: The '<taxa>' element with id, 'taxa', is incorrectly constructed.
+The following was expected:
+Any number of ELEMENT of type Taxa REQUIRED
+	at dr.xml.AbstractXMLObjectParser.parseXMLObject(Unknown Source)
+	at dr.xml.XMLParser.convert(Unknown Source)
+	at dr.xml.XMLParser.convert(Unknown Source)
+	at dr.xml.XMLParser.parse(Unknown Source)
+	at dr.app.beast.BeastMain.<init>(Unknown Source)
+	at dr.app.beast.BeastMain.main(Unknown Source)
+Jul 11, 2015 3:07:50 PM dr.app.beast.BeastMain <init>
+SEVERE: Parsing error - poorly formed BEAST file, e_faecium_clade2_rs.xml:
+The '<taxa>' element with id, 'taxa', is incorrectly constructed.
+The following was expected:
+Any number of ELEMENT of type Taxa REQUIRED
+java.lang.RuntimeException: Terminate
+	at dr.app.beast.BeastMain.<init>(Unknown Source)
+	at dr.app.beast.BeastMain.main(Unknown Source)
+
+                  BEAST v1.8.2, 2002-2015
+       Bayesian Evolutionary Analysis Sampling Trees
+                 Designed and developed by
+   Alexei J. Drummond, Andrew Rambaut and Marc A. Suchard
+                              
+               Department of Computer Science
+                   University of Auckland
+                  alexei@cs.auckland.ac.nz
+                              
+             Institute of Evolutionary Biology
+                  University of Edinburgh
+                     a.rambaut@ed.ac.uk
+                              
+              David Geffen School of Medicine
+           University of California, Los Angeles
+                     msuchard@ucla.edu
+                              
+                Downloads, Help & Resources:
+                 	http://beast.bio.ed.ac.uk
+                              
+Source code distributed under the GNU Lesser General Public License:
+            	http://code.google.com/p/beast-mcmc
+                              
+                     BEAST developers:
+	Alex Alekseyenko, Guy Baele, Trevor Bedford, Filip Bielejec, Erik Bloomquist, Matthew Hall,
+	Joseph Heled, Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li,
+	Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel,
+          	Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                              
+                         Thanks to:
+    	Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Using BEAGLE library v1.x for accelerated, parallel likelihood evaluation
+2009-2013, BEAGLE Working Group - http://beagle-lib.googlecode.com/
+Citation: Ayres et al (2012) Systematic Biology 61: 170-173 | doi:10.1093/sysbio/syr100
+
+WARNING: You are currenly using BEAGLE v1.x. For best performance and compatibility
+with models in BEAST, please upgrade to BEAGLE v2.x at http://beagle-lib.googlecode.com/
+
+
+Random number seed: 1436620085368
+
+
+Failed to load parser: dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+line = dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+
+
+
+Loading additional development parsers from development_parsers.properties, which is additional set of parsers only available for development version ...
+
+WARNING: parser - dr.app.beagle.multidimensionalscaling.MultiDimensionalScalingLikelihood in development_parsers.properties is duplicated, which is REPLACING the same parser loaded previously.
+
+Parsing XML file: st93_dated_rc.xml
+  File encoding: MacRoman
+Looking for plugins in /Users/sebastianducheneAIr/Desktop/sandbox/bacterial_rates_notebooks/summarise_xmls/plugins
+Read alignment: alignment
+  Sequences = 56
+      Sites = 60
+   Datatype = nucleotide
+Site patterns 'patterns' created from positions 1-60 of alignment 'alignment'
+  unique pattern count = 56
+Creating the tree model, 'treeModel'
+  initial tree topology = (((((((((((((Sa_TPS3106_2008,Sa_TPS3169_2008),Sa_JKD6159_2004),Sa_TPS3163_2005),(Sa_TPS3176_2009,Sa_TPS3181_2008)),(((Sa_TPS3148_2007,Sa_TPS3155_2008),(Sa_TPS3167_2008,Sa_TPS3168_2008)),Sa_TPS3184_1995)),Sa_TPS3183_2007),((((((Sa_TPS3151_2008,Sa_TPS3166_2008),(Sa_TPS3171_2008,Sa_TPS3173_2009)),Sa_TPS3186_2003),(Sa_TPS3160_2008,Sa_TPS3182_2008)),Sa_TPS3146_2006),Sa_TPS3135_2000)),((Sa_TPS3133_2000,Sa_TPS3152_2008),(Sa_TPS3140_2000,Sa_TPS3149_2007))),Sa_TPS3142_2005),((((((Sa_TPS3153_2008,Sa_TPS3179_2008),Sa_TPS3162_2003),Sa_TPS3137_2000),((Sa_TPS3134_2000,Sa_TPS3139_2000),(Sa_TPS3144_2006,Sa_TPS3147_2006))),((Sa_TPS3104_2009,Sa_TPS3161_2008),Sa_TPS3157_2008)),(((((Sa_TPS3158_2008,Sa_TPS3174_2009),Sa_TPS3156_2008),Sa_TPS3132_2000),Sa_TPS3154_2008),Sa_TPS3187_1996))),Sa_TPS3189_1992),(((((Sa_TPS3105_2005,Sa_TPS3165_2008),Sa_TPS3185_2003),(Sa_TPS3136_2000,Sa_TPS3138_2000)),((Sa_TPS3145_2006,Sa_TPS3178_2008),Sa_TPS3188_1992)),((Sa_TPS3150_2007,Sa_TPS3177_2008),Sa_TPS3159_2008))),Sa_TPS3164_2008)
+  tree height = 428.14977011000076
+Using discretized relaxed clock model.
+  over sampling = 1
+  parametric model = logNormalDistributionModel
+   rate categories = 1
+Creating state frequencies model 'frequencies': Initial frequencies = {0.25, 0.25, 0.25, 0.25}
+Creating site model: 
+  4 category discrete gamma with initial shape = 0.5
+Using BEAGLE TreeLikelihood
+  Branch rate model used: discretizedBranchRates
+  Using BEAGLE resource 0: CPU
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU
+  Ignoring ambiguities in tree likelihood.
+  With 56 unique site patterns.
+  Using rescaling scheme : dynamic (rescaling every 100 evaluations)
+Creating swap operator for parameter branchRates.categories (weight=10.0)
+Optimization Schedule: default
+Likelihood computation is using an auto sizing thread pool.
+Creating the MCMC chain:
+  chainLength=10000
+  autoOptimize=true
+  autoOptimize delayed for 100 steps
+# BEAST v1.8.2, r6692
+# Generated Sat Jul 11 15:08:06 CEST 2015 [seed=1436620085368]
+state	Posterior   	Prior       	Likelihood  	rootHeight  	ucld.mean   
+0	-1287.2526  	-358.0121   	-929.2405   	428.150     	5E-2        	-
+5000	-966.3831   	-376.9227   	-589.4604   	129.125     	1.4337E-3   	-
+10000	-949.3683   	-389.1553   	-560.2130   	86.6911     	1.05327E-3  	-
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) 
+scale(ac)                                         0.529   15         8        0.53     0.6667      
+scale(ag)                                         0.557   6          0        0.0      0.6667      
+scale(at)                                         0.531   16         1        0.06     0.5625      
+scale(cg)                                         0.601   14         3        0.21     0.6429      
+scale(gt)                                         0.603   10         3        0.3      0.6         
+frequencies                                       0.028   9          1        0.11     0.6667      
+scale(alpha)                                      0.611   9          1        0.11     0.6667      
+scale(ucld.mean)                                  0.408   293        55       0.19     0.3345      
+scale(ucld.stdev)                                 0.479   291        64       0.22     0.4605      
+subtreeSlide(treeModel)                           24.233  1479       86       0.06     0.2691      
+Narrow Exchange(treeModel)                                1385       85       0.06     0.5206      
+Wide Exchange(treeModel)                                  308        12       0.04     0.1623      
+wilsonBalding(treeModel)                                  261        30       0.11     0.2644      
+scale(treeModel.rootHeight)                       0.676   303        27       0.09     0.3399      
+uniform(nodeHeights(treeModel))                           2965       273      0.09     0.739       
+scale(constant.popSize)                           0.507   301        6        0.02     0.3056      
+up:ucld.mean down:nodeHeights(treeModel)          0.717   301        45       0.15     0.1561      
+swapOperator(branchRates.categories)                      995        60       0.06     0.7447      
+uniformInteger(branchRates.categories)                    939        60       0.06     0.8179      
+
+
+Creating the Marginal Likelihood Estimator chain:
+  chainLength=1000
+  pathSteps=100
+  pathScheme=betaQuantile(0.3)
+  If you use these results, please cite:
+    Guy Baele, Philippe Lemey, Trevor Bedford, Andrew Rambaut, Marc A. Suchard, and Alexander V. Alekseyenko.
+    2012. Improving the accuracy of demographic and molecular clock model comparison while accommodating 
+          phylogenetic uncertainty. Mol. Biol. Evol. 29(9):2157-2167.
+    and 
+    Guy Baele, Wai Lok Sibon Li, Alexei J. Drummond, Marc A. Suchard, and Philippe Lemey. 2013.
+    Accurate model selection of relaxed molecular clocks in Bayesian phylogenetics. Mol. Biol. Evol. 30(2):239-243.
+
+Attempting theta (1/101) = 1.0 for 1000 iterations + 100 burnin.
+Attempting theta (2/101) = 0.9670538286027488 for 1000 iterations + 100 burnin.
+Attempting theta (3/101) = 0.9348750848354606 for 1000 iterations + 100 burnin.
+Attempting theta (4/101) = 0.9034534504706005 for 1000 iterations + 100 burnin.
+Attempting theta (5/101) = 0.872778642317937 for 1000 iterations + 100 burnin.
+Attempting theta (6/101) = 0.8428404124649498 for 1000 iterations + 100 burnin.
+Attempting theta (7/101) = 0.8136285485214058 for 1000 iterations + 100 burnin.
+Attempting theta (8/101) = 0.785132873868218 for 1000 iterations + 100 burnin.
+Attempting theta (9/101) = 0.7573432479107086 for 1000 iterations + 100 burnin.
+Attempting theta (10/101) = 0.7302495663364068 for 1000 iterations + 100 burnin.
+Attempting theta (11/101) = 0.7038417613775041 for 1000 iterations + 100 burnin.
+Attempting theta (12/101) = 0.678109802078112 for 1000 iterations + 100 burnin.
+Attempting theta (13/101) = 0.6530436945664579 for 1000 iterations + 100 burnin.
+Attempting theta (14/101) = 0.6286334823321714 for 1000 iterations + 100 burnin.
+Attempting theta (15/101) = 0.6048692465088115 for 1000 iterations + 100 burnin.
+Attempting theta (16/101) = 0.5817411061617966 for 1000 iterations + 100 burnin.
+Attempting theta (17/101) = 0.5592392185819061 for 1000 iterations + 100 burnin.
+Attempting theta (18/101) = 0.5373537795845235 for 1000 iterations + 100 burnin.
+Attempting theta (19/101) = 0.5160750238148092 for 1000 iterations + 100 burnin.
+Attempting theta (20/101) = 0.49539322505898753 for 1000 iterations + 100 burnin.
+Attempting theta (21/101) = 0.4752986965619486 for 1000 iterations + 100 burnin.
+Attempting theta (22/101) = 0.4557817913513756 for 1000 iterations + 100 burnin.
+Attempting theta (23/101) = 0.436832902568608 for 1000 iterations + 100 burnin.
+Attempting theta (24/101) = 0.418442463806474 for 1000 iterations + 100 burnin.
+Attempting theta (25/101) = 0.40060094945432584 for 1000 iterations + 100 burnin.
+Attempting theta (26/101) = 0.38329887505052945 for 1000 iterations + 100 burnin.
+Attempting theta (27/101) = 0.36652679764266793 for 1000 iterations + 100 burnin.
+Attempting theta (28/101) = 0.3502753161557333 for 1000 iterations + 100 burnin.
+Attempting theta (29/101) = 0.33453507176859365 for 1000 iterations + 100 burnin.
+Attempting theta (30/101) = 0.3192967482990375 for 1000 iterations + 100 burnin.
+Attempting theta (31/101) = 0.30455107259771197 for 1000 iterations + 100 burnin.
+Attempting theta (32/101) = 0.2902888149512887 for 1000 iterations + 100 burnin.
+Attempting theta (33/101) = 0.2765007894952082 for 1000 iterations + 100 burnin.
+Attempting theta (34/101) = 0.26317785463637045 for 1000 iterations + 100 burnin.
+Attempting theta (35/101) = 0.2503109134861649 for 1000 iterations + 100 burnin.
+Attempting theta (36/101) = 0.23789091430424544 for 1000 iterations + 100 burnin.
+Attempting theta (37/101) = 0.22590885095348726 for 1000 iterations + 100 burnin.
+Attempting theta (38/101) = 0.21435576336658174 for 1000 iterations + 100 burnin.
+Attempting theta (39/101) = 0.20322273802475366 for 1000 iterations + 100 burnin.
+Attempting theta (40/101) = 0.19250090844911202 for 1000 iterations + 100 burnin.
+Attempting theta (41/101) = 0.1821814557051778 for 1000 iterations + 100 burnin.
+Attempting theta (42/101) = 0.17225560892116176 for 1000 iterations + 100 burnin.
+Attempting theta (43/101) = 0.1627146458206033 for 1000 iterations + 100 burnin.
+Attempting theta (44/101) = 0.15354989327001706 for 1000 iterations + 100 burnin.
+Attempting theta (45/101) = 0.14475272784223595 for 1000 iterations + 100 burnin.
+Attempting theta (46/101) = 0.13631457639618247 for 1000 iterations + 100 burnin.
+Attempting theta (47/101) = 0.12822691667385014 for 1000 iterations + 100 burnin.
+Attempting theta (48/101) = 0.12048127791532504 for 1000 iterations + 100 burnin.
+Underflow calculating likelihood. Attempting a rescaling...
+Attempting theta (49/101) = 0.11306924149273806 for 1000 iterations + 100 burnin.
+Underflow calculating likelihood. Attempting a rescaling...
+Attempting theta (50/101) = 0.10598244156409653 for 1000 iterations + 100 burnin.
+Attempting theta (51/101) = 0.09921256574801246 for 1000 iterations + 100 burnin.
+Attempting theta (52/101) = 0.09275135582041685 for 1000 iterations + 100 burnin.
+Attempting theta (53/101) = 0.08659060843442937 for 1000 iterations + 100 burnin.
+Attempting theta (54/101) = 0.08072217586463991 for 1000 iterations + 100 burnin.
+Attempting theta (55/101) = 0.07513796677715448 for 1000 iterations + 100 burnin.
+Attempting theta (56/101) = 0.06982994702686253 for 1000 iterations + 100 burnin.
+Attempting theta (57/101) = 0.06479014048349967 for 1000 iterations + 100 burnin.
+Attempting theta (58/101) = 0.06001062988820621 for 1000 iterations + 100 burnin.
+Attempting theta (59/101) = 0.055483557742424465 for 1000 iterations + 100 burnin.
+Attempting theta (60/101) = 0.051201127231133854 for 1000 iterations + 100 burnin.
+Attempting theta (61/101) = 0.04715560318259695 for 1000 iterations + 100 burnin.
+Attempting theta (62/101) = 0.043339313066983146 for 1000 iterations + 100 burnin.
+Attempting theta (63/101) = 0.039744648036453514 for 1000 iterations + 100 burnin.
+Attempting theta (64/101) = 0.03636406400953165 for 1000 iterations + 100 burnin.
+Attempting theta (65/101) = 0.033190082802857665 for 1000 iterations + 100 burnin.
+Attempting theta (66/101) = 0.030215293313728214 for 1000 iterations + 100 burnin.
+Attempting theta (67/101) = 0.027432352757170694 for 1000 iterations + 100 burnin.
+Attempting theta (68/101) = 0.024833987961691194 for 1000 iterations + 100 burnin.
+Attempting theta (69/101) = 0.0224129967282808 for 1000 iterations + 100 burnin.
+Attempting theta (70/101) = 0.02016224925777198 for 1000 iterations + 100 burnin.
+Attempting theta (71/101) = 0.018074689652218572 for 1000 iterations + 100 burnin.
+Attempting theta (72/101) = 0.016143337496641163 for 1000 iterations + 100 burnin.
+Attempting theta (73/101) = 0.014361289528251987 for 1000 iterations + 100 burnin.
+Attempting theta (74/101) = 0.01272172140116927 for 1000 iterations + 100 burnin.
+Attempting theta (75/101) = 0.011217889555676173 for 1000 iterations + 100 burnin.
+Attempting theta (76/101) = 0.009843133202303695 for 1000 iterations + 100 burnin.
+Attempting theta (77/101) = 0.008590876432461226 for 1000 iterations + 100 burnin.
+Attempting theta (78/101) = 0.007454630469050414 for 1000 iterations + 100 burnin.
+Attempting theta (79/101) = 0.006427996072542175 for 1000 iterations + 100 burnin.
+Attempting theta (80/101) = 0.0055046661204539325 for 1000 iterations + 100 burnin.
+Attempting theta (81/101) = 0.004678428381140585 for 1000 iterations + 100 burnin.
+Attempting theta (82/101) = 0.003943168506448259 for 1000 iterations + 100 burnin.
+Attempting theta (83/101) = 0.0032928732722604936 for 1000 iterations + 100 burnin.
+Attempting theta (84/101) = 0.002721634101543468 for 1000 iterations + 100 burnin.
+Attempting theta (85/101) = 0.002223650911514547 for 1000 iterations + 100 burnin.
+Attempting theta (86/101) = 0.0017932363354956555 for 1000 iterations + 100 burnin.
+Attempting theta (87/101) = 0.001424820381547943 for 1000 iterations + 100 burnin.
+Attempting theta (88/101) = 0.0011129556050964646 for 1000 iterations + 100 burnin.
+Attempting theta (89/101) = 8.5232289288861E-4 for 1000 iterations + 100 burnin.
+Attempting theta (90/101) = 6.377379829750564E-4 for 1000 iterations + 100 burnin.
+Attempting theta (91/101) = 4.6415888336127784E-4 for 1000 iterations + 100 burnin.
+Attempting theta (92/101) = 3.2669440602401713E-4 for 1000 iterations + 100 burnin.
+Attempting theta (93/101) = 2.2061411225926482E-4 for 1000 iterations + 100 burnin.
+Attempting theta (94/101) = 1.4136008578343349E-4 for 1000 iterations + 100 burnin.
+Attempting theta (95/101) = 8.45611410492474E-5 for 1000 iterations + 100 burnin.
+Attempting theta (96/101) = 4.605039373300482E-5 for 1000 iterations + 100 burnin.
+Attempting theta (97/101) = 2.1887692117461713E-5 for 1000 iterations + 100 burnin.
+Attempting theta (98/101) = 8.389527766075414E-6 for 1000 iterations + 100 burnin.
+Attempting theta (99/101) = 2.171534093275924E-6 for 1000 iterations + 100 burnin.
+Attempting theta (100/101) = 2.1544346900318824E-7 for 1000 iterations + 100 burnin.
+Attempting theta (101/101) = 0.0 for 1000 iterations + 100 burnin.
+1 file(s) found with marginal likelihood samples
+PathParameter	MeanPathLikelihood	MLContribution
+0.0000	-841.65	-0.00018660
+2.1544e-07	-890.58	-0.0018052
+2.1715e-06	-955.13	-0.0058876
+8.3895e-06	-938.60	-0.012670
+2.1888e-05	-938.70	-0.022967
+4.6050e-05	-962.34	-0.037262
+8.4561e-05	-972.81	-0.055074
+0.00014136	-966.46	-0.079094
+0.00022061	-1029.5	-0.10428
+0.00032669	-936.62	-0.12898
+0.00046416	-939.96	-0.15993
+0.00063774	-902.76	-0.20145
+0.00085232	-974.84	-0.25867
+0.0011130	-1010.1	-0.30873
+0.0014248	-969.75	-0.36302
+0.0017932	-1001.0	-0.42095
+0.0022237	-955.06	-0.47954
+0.0027216	-970.86	-0.55660
+0.0032929	-977.89	-0.63900
+0.0039432	-987.36	-0.71840
+0.0046784	-966.79	-0.80037
+0.0055047	-970.60	-0.88890
+0.0064280	-954.83	-0.95573
+0.0074546	-907.04	-1.0474
+0.0085909	-936.60	-1.1641
+0.0098431	-922.53	-1.2763
+0.011218	-934.30	-1.3884
+0.012722	-912.14	-1.4429
+0.014361	-847.97	-1.6996
+0.016143	-1059.4	-1.8740
+0.018075	-881.14	-1.7804
+0.020162	-824.60	-1.8422
+0.022413	-812.35	-1.9904
+0.024834	-831.95	-2.1438
+0.027432	-818.20	-2.3479
+0.030215	-869.17	-2.5312
+0.033190	-832.62	-2.5669
+0.036364	-784.82	-2.5559
+0.039745	-727.29	-2.7471
+0.043339	-801.15	-3.0183
+0.047156	-780.62	-3.1623
+0.051201	-782.71	-3.3087
+0.055484	-762.54	-3.3738
+0.060011	-727.95	-3.5581
+0.064790	-760.96	-3.7960
+0.069830	-745.45	-4.1789
+0.075138	-829.10	-4.4904
+0.080722	-779.14	-4.3857
+0.086591	-715.54	-4.3624
+0.092751	-700.65	-4.5412
+0.099213	-705.05	-4.8100
+0.10598	-715.96	-5.1922
+0.11307	-749.35	-5.4774
+0.12048	-728.61	-5.5946
+0.12823	-715.97	-5.7772
+0.13631	-712.68	-5.9914
+0.14475	-707.38	-6.2669
+0.15355	-717.38	-6.4312
+0.16271	-686.09	-6.4839
+0.17226	-673.09	-6.4958
+0.18218	-635.77	-6.7633
+0.19250	-675.02	-6.9254
+0.20322	-616.81	-6.9282
+0.21436	-627.81	-6.9819
+0.22591	-580.85	-6.7464
+0.23789	-545.24	-6.8997
+0.25031	-565.82	-7.2829
+0.26318	-566.21	-7.4384
+0.27650	-550.42	-7.6997
+0.29029	-566.45	-8.0655
+0.30455	-564.57	-8.3049
+0.31930	-561.85	-8.7741
+0.33454	-589.73	-9.1946
+0.35028	-578.56	-9.1745
+0.36653	-550.51	-9.1757
+0.38330	-543.66	-9.2822
+0.40060	-529.30	-9.6231
+0.41844	-549.43	-9.8787
+0.43683	-524.90	-9.7890
+0.45578	-508.30	-10.071
+0.47530	-523.72	-10.345
+0.49539	-505.90	-10.463
+0.51608	-505.96	-10.992
+0.53735	-527.21	-11.393
+0.55924	-513.91	-11.604
+0.58174	-517.50	-12.023
+0.60487	-522.18	-12.265
+0.62863	-510.07	-12.460
+0.65304	-510.84	-12.830
+0.67811	-512.88	-13.115
+0.70384	-506.47	-13.413
+0.73025	-509.35	-13.890
+0.75734	-515.99	-14.388
+0.78513	-519.53	-14.634
+0.81363	-507.58	-14.690
+0.84284	-498.14	-15.368
+0.87278	-528.53	-16.085
+0.90345	-520.22	-16.389
+0.93488	-522.93	-16.938
+0.96705	-529.79	-17.495
+1.0000	-532.25	
+
+log marginal likelihood (using path sampling) from pathLikelihood.delta = -574.0750807609738
+
+Inner area for path parameter in (2.1544e-07,0.96705) = -574.07
+
+1 file(s) found with marginal likelihood samples
+PathParameter	MaxPathLikelihood	MLContribution
+0.0000	-841.65	-0.00018133
+2.1544e-07	-890.58	-0.0017421
+2.1715e-06	-955.13	-0.0059390
+8.3895e-06	-938.60	-0.012669
+2.1888e-05	-938.70	-0.022681
+4.6050e-05	-962.34	-0.037061
+8.4561e-05	-972.81	-0.055255
+0.00014136	-966.46	-0.076596
+0.00022061	-1029.5	-0.10921
+0.00032669	-936.62	-0.12875
+0.00046416	-939.96	-0.16316
+0.00063774	-902.76	-0.19372
+0.00085232	-974.84	-0.25408
+0.0011130	-1010.1	-0.31503
+0.0014248	-969.75	-0.35727
+0.0017932	-1001.0	-0.43083
+0.0022237	-955.06	-0.47560
+0.0027216	-970.86	-0.55459
+0.0032929	-977.89	-0.63592
+0.0039432	-987.36	-0.72597
+0.0046784	-966.79	-0.79880
+0.0055047	-970.60	-0.89618
+0.0064280	-954.83	-0.98026
+0.0074546	-907.04	-1.0306
+0.0085909	-936.60	-1.1729
+0.0098431	-922.53	-1.2682
+0.011218	-934.30	-1.4050
+0.012722	-912.14	-1.4955
+0.014361	-847.97	-1.5111
+0.016143	-1059.4	-2.0462
+0.018075	-881.14	-1.8394
+0.020162	-824.60	-1.8560
+0.022413	-812.35	-1.9667
+0.024834	-831.95	-2.1617
+0.027432	-818.20	-2.2770
+0.030215	-869.17	-2.5856
+0.033190	-832.62	-2.6427
+0.036364	-784.82	-2.6532
+0.039745	-727.29	-2.6144
+0.043339	-801.15	-3.0574
+0.047156	-780.62	-3.1580
+0.051201	-782.71	-3.3519
+0.055484	-762.54	-3.4521
+0.060011	-727.95	-3.4792
+0.064790	-760.96	-3.8351
+0.069830	-745.45	-3.9568
+0.075138	-829.10	-4.6298
+0.080722	-779.14	-4.5723
+0.086591	-715.54	-4.4083
+0.092751	-700.65	-4.5270
+0.099213	-705.05	-4.7731
+0.10598	-715.96	-5.0739
+0.11307	-749.35	-5.5542
+0.12048	-728.61	-5.6436
+0.12823	-715.97	-5.7905
+0.13631	-712.68	-6.0137
+0.14475	-707.38	-6.2230
+0.15355	-717.38	-6.5746
+0.16271	-686.09	-6.5459
+0.17226	-673.09	-6.6809
+0.18218	-635.77	-6.5608
+0.19250	-675.02	-7.2375
+0.20322	-616.81	-6.8670
+0.21436	-627.81	-7.2532
+0.22591	-580.85	-6.9598
+0.23789	-545.24	-6.7719
+0.25031	-565.82	-7.2803
+0.26318	-566.21	-7.5436
+0.27650	-550.42	-7.5892
+0.29029	-566.45	-8.0789
+0.30455	-564.57	-8.3249
+0.31930	-561.85	-8.5617
+0.33454	-589.73	-9.2825
+0.35028	-578.56	-9.4025
+0.36653	-550.51	-9.2332
+0.38330	-543.66	-9.4064
+0.40060	-529.30	-9.4435
+0.41844	-549.43	-10.104
+0.43683	-524.90	-9.9463
+0.45578	-508.30	-9.9204
+0.47530	-523.72	-10.524
+0.49539	-505.90	-10.463
+0.51608	-505.96	-10.766
+0.53735	-527.21	-11.538
+0.55924	-513.91	-11.564
+0.58174	-517.50	-11.969
+0.60487	-522.18	-12.409
+0.62863	-510.07	-12.451
+0.65304	-510.84	-12.805
+0.67811	-512.88	-13.197
+0.70384	-506.47	-13.375
+0.73025	-509.35	-13.800
+0.75734	-515.99	-14.339
+0.78513	-519.53	-14.804
+0.81363	-507.58	-14.827
+0.84284	-498.14	-14.914
+0.87278	-528.53	-16.213
+0.90345	-520.22	-16.346
+0.93488	-522.93	-16.827
+0.96705	-529.79	-17.455
+1.0000	-532.25	
+
+log marginal likelihood (using stepping stone sampling) from pathLikelihood.delta = -575.4133745620924
+
+13.617 seconds 
+
+                  BEAST v1.8.2, 2002-2015
+       Bayesian Evolutionary Analysis Sampling Trees
+                 Designed and developed by
+   Alexei J. Drummond, Andrew Rambaut and Marc A. Suchard
+                              
+               Department of Computer Science
+                   University of Auckland
+                  alexei@cs.auckland.ac.nz
+                              
+             Institute of Evolutionary Biology
+                  University of Edinburgh
+                     a.rambaut@ed.ac.uk
+                              
+              David Geffen School of Medicine
+           University of California, Los Angeles
+                     msuchard@ucla.edu
+                              
+                Downloads, Help & Resources:
+                 	http://beast.bio.ed.ac.uk
+                              
+Source code distributed under the GNU Lesser General Public License:
+            	http://code.google.com/p/beast-mcmc
+                              
+                     BEAST developers:
+	Alex Alekseyenko, Guy Baele, Trevor Bedford, Filip Bielejec, Erik Bloomquist, Matthew Hall,
+	Joseph Heled, Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li,
+	Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel,
+          	Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                              
+                         Thanks to:
+    	Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Using BEAGLE library v1.x for accelerated, parallel likelihood evaluation
+2009-2013, BEAGLE Working Group - http://beagle-lib.googlecode.com/
+Citation: Ayres et al (2012) Systematic Biology 61: 170-173 | doi:10.1093/sysbio/syr100
+
+WARNING: You are currenly using BEAGLE v1.x. For best performance and compatibility
+with models in BEAST, please upgrade to BEAGLE v2.x at http://beagle-lib.googlecode.com/
+
+
+Random number seed: 1436620126341
+
+
+Failed to load parser: dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+line = dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+
+
+
+Loading additional development parsers from development_parsers.properties, which is additional set of parsers only available for development version ...
+
+WARNING: parser - dr.app.beagle.multidimensionalscaling.MultiDimensionalScalingLikelihood in development_parsers.properties is duplicated, which is REPLACING the same parser loaded previously.
+
+Parsing XML file: st93_dated_rs.xml
+  File encoding: MacRoman
+Looking for plugins in /Users/sebastianducheneAIr/Desktop/sandbox/bacterial_rates_notebooks/summarise_xmls/plugins
+Read alignment: alignment
+  Sequences = 56
+      Sites = 60
+   Datatype = nucleotide
+Site patterns 'patterns' created from positions 1-60 of alignment 'alignment'
+  unique pattern count = 56
+Creating the tree model, 'treeModel'
+  initial tree topology = (((((((((((((((Sa_TPS3148_2007,Sa_TPS3155_2008),Sa_TPS3158_2008),Sa_TPS3151_2008),(Sa_TPS3142_2005,Sa_TPS3162_2003)),Sa_TPS3138_2000),(Sa_TPS3154_2008,Sa_TPS3186_2003)),((((((Sa_TPS3156_2008,Sa_TPS3169_2008),Sa_TPS3106_2008),(Sa_TPS3165_2008,Sa_TPS3182_2008)),Sa_TPS3168_2008),Sa_TPS3181_2008),(Sa_TPS3139_2000,Sa_TPS3167_2008))),((((Sa_TPS3157_2008,Sa_TPS3173_2009),Sa_TPS3104_2009),Sa_TPS3185_2003),Sa_TPS3187_1996)),((((Sa_TPS3166_2008,Sa_TPS3174_2009),Sa_TPS3164_2008),Sa_TPS3153_2008),Sa_TPS3176_2009)),Sa_TPS3188_1992),Sa_TPS3132_2000),(Sa_TPS3134_2000,Sa_TPS3159_2008)),((((((Sa_TPS3144_2006,Sa_TPS3145_2006),Sa_TPS3184_1995),(Sa_TPS3146_2006,Sa_TPS3178_2008)),Sa_TPS3147_2006),(((Sa_TPS3137_2000,Sa_TPS3161_2008),Sa_TPS3135_2000),Sa_TPS3133_2000)),((((Sa_TPS3152_2008,Sa_TPS3177_2008),(Sa_TPS3160_2008,Sa_TPS3171_2008)),Sa_TPS3163_2005),Sa_TPS3136_2000))),Sa_TPS3189_1992),(((((Sa_TPS3105_2005,Sa_TPS3183_2007),Sa_TPS3179_2008),(Sa_TPS3149_2007,Sa_TPS3150_2007)),Sa_TPS3140_2000),Sa_JKD6159_2004))
+  tree height = 154.08944619807943
+Bayesian skyline plot: 10 stepwise control points
+Exponential markov model on parameter skyline.popSize (jeffreys=true, reverse=false)
+Using discretized relaxed clock model.
+  over sampling = 1
+  parametric model = logNormalDistributionModel
+   rate categories = 1
+Creating state frequencies model 'frequencies': Initial frequencies = {0.25, 0.25, 0.25, 0.25}
+Creating site model: 
+  4 category discrete gamma with initial shape = 0.5
+Using BEAGLE TreeLikelihood
+  Branch rate model used: discretizedBranchRates
+  Using BEAGLE resource 0: CPU
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU
+  Ignoring ambiguities in tree likelihood.
+  With 56 unique site patterns.
+  Using rescaling scheme : dynamic (rescaling every 100 evaluations)
+Creating swap operator for parameter branchRates.categories (weight=10.0)
+Optimization Schedule: default
+Likelihood computation is using an auto sizing thread pool.
+Creating the MCMC chain:
+  chainLength=10000
+  autoOptimize=true
+  autoOptimize delayed for 100 steps
+# BEAST v1.8.2, r6692
+# Generated Sat Jul 11 15:08:47 CEST 2015 [seed=1436620126341]
+state	Posterior   	Prior       	Likelihood  	rootHeight  	ucld.mean   
+0	-3567.1788  	-2691.6551  	-875.5237   	154.089     	5E-2        	-
+5000	-3286.0822  	-2675.4438  	-610.6384   	44.8059     	2.84831E-3  	-
+10000	-3243.2932  	-2641.2683  	-602.0249   	32.0730     	4.67809E-3  	-
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) 
+scale(ac)                                         0.437   13         6        0.46     0.7692      
+scale(ag)                                         0.599   6          2        0.33     0.6667      
+scale(at)                                         0.596   7          3        0.43     0.5714      
+scale(cg)                                         0.654   11         1        0.09     0.7273      
+scale(gt)                                         0.533   7          4        0.57     0.5714      
+frequencies                                       0.026   9          3        0.33     0.6667      
+scale(alpha)                                      0.702   10         1        0.1      0.6         
+scale(ucld.mean)                                  0.466   211        59       0.28     0.3839      
+scale(ucld.stdev)                                 0.494   265        69       0.26     0.5434      
+subtreeSlide(treeModel)                           14.049  1235       94       0.08     0.1377      
+Narrow Exchange(treeModel)                                1244       75       0.06     0.5169      
+Wide Exchange(treeModel)                                  227        12       0.05     0.2511      
+wilsonBalding(treeModel)                                  225        26       0.12     0.2444      
+scale(treeModel.rootHeight)                       0.626   275        18       0.07     0.3382      
+uniform(nodeHeights(treeModel))                           2471       203      0.08     0.635       
+scale(skyline.popSize)                            0.317   1256       43       0.03     0.4021      
+skyline.groupSize                                         456        10       0.02     0.4868      
+up:ucld.mean down:nodeHeights(treeModel)          0.799   255        36       0.14     0.1608      
+swapOperator(branchRates.categories)                      836        79       0.09     0.8086      
+uniformInteger(branchRates.categories)                    881        79       0.09     0.8672      
+
+
+Creating the Marginal Likelihood Estimator chain:
+  chainLength=1000
+  pathSteps=100
+  pathScheme=betaQuantile(0.3)
+  If you use these results, please cite:
+    Guy Baele, Philippe Lemey, Trevor Bedford, Andrew Rambaut, Marc A. Suchard, and Alexander V. Alekseyenko.
+    2012. Improving the accuracy of demographic and molecular clock model comparison while accommodating 
+          phylogenetic uncertainty. Mol. Biol. Evol. 29(9):2157-2167.
+    and 
+    Guy Baele, Wai Lok Sibon Li, Alexei J. Drummond, Marc A. Suchard, and Philippe Lemey. 2013.
+    Accurate model selection of relaxed molecular clocks in Bayesian phylogenetics. Mol. Biol. Evol. 30(2):239-243.
+
+Attempting theta (1/101) = 1.0 for 1000 iterations + 100 burnin.
+Attempting theta (2/101) = 0.9670538286027488 for 1000 iterations + 100 burnin.
+Attempting theta (3/101) = 0.9348750848354606 for 1000 iterations + 100 burnin.
+Attempting theta (4/101) = 0.9034534504706005 for 1000 iterations + 100 burnin.
+Attempting theta (5/101) = 0.872778642317937 for 1000 iterations + 100 burnin.
+Attempting theta (6/101) = 0.8428404124649498 for 1000 iterations + 100 burnin.
+Attempting theta (7/101) = 0.8136285485214058 for 1000 iterations + 100 burnin.
+Attempting theta (8/101) = 0.785132873868218 for 1000 iterations + 100 burnin.
+Attempting theta (9/101) = 0.7573432479107086 for 1000 iterations + 100 burnin.
+Attempting theta (10/101) = 0.7302495663364068 for 1000 iterations + 100 burnin.
+Attempting theta (11/101) = 0.7038417613775041 for 1000 iterations + 100 burnin.
+Attempting theta (12/101) = 0.678109802078112 for 1000 iterations + 100 burnin.
+Attempting theta (13/101) = 0.6530436945664579 for 1000 iterations + 100 burnin.
+Attempting theta (14/101) = 0.6286334823321714 for 1000 iterations + 100 burnin.
+Attempting theta (15/101) = 0.6048692465088115 for 1000 iterations + 100 burnin.
+Attempting theta (16/101) = 0.5817411061617966 for 1000 iterations + 100 burnin.
+Attempting theta (17/101) = 0.5592392185819061 for 1000 iterations + 100 burnin.
+Attempting theta (18/101) = 0.5373537795845235 for 1000 iterations + 100 burnin.
+Attempting theta (19/101) = 0.5160750238148092 for 1000 iterations + 100 burnin.
+Attempting theta (20/101) = 0.49539322505898753 for 1000 iterations + 100 burnin.
+Attempting theta (21/101) = 0.4752986965619486 for 1000 iterations + 100 burnin.
+Attempting theta (22/101) = 0.4557817913513756 for 1000 iterations + 100 burnin.
+Attempting theta (23/101) = 0.436832902568608 for 1000 iterations + 100 burnin.
+Attempting theta (24/101) = 0.418442463806474 for 1000 iterations + 100 burnin.
+Attempting theta (25/101) = 0.40060094945432584 for 1000 iterations + 100 burnin.
+Attempting theta (26/101) = 0.38329887505052945 for 1000 iterations + 100 burnin.
+Attempting theta (27/101) = 0.36652679764266793 for 1000 iterations + 100 burnin.
+Attempting theta (28/101) = 0.3502753161557333 for 1000 iterations + 100 burnin.
+Attempting theta (29/101) = 0.33453507176859365 for 1000 iterations + 100 burnin.
+Attempting theta (30/101) = 0.3192967482990375 for 1000 iterations + 100 burnin.
+Attempting theta (31/101) = 0.30455107259771197 for 1000 iterations + 100 burnin.
+Attempting theta (32/101) = 0.2902888149512887 for 1000 iterations + 100 burnin.
+Attempting theta (33/101) = 0.2765007894952082 for 1000 iterations + 100 burnin.
+Attempting theta (34/101) = 0.26317785463637045 for 1000 iterations + 100 burnin.
+Attempting theta (35/101) = 0.2503109134861649 for 1000 iterations + 100 burnin.
+Attempting theta (36/101) = 0.23789091430424544 for 1000 iterations + 100 burnin.
+Attempting theta (37/101) = 0.22590885095348726 for 1000 iterations + 100 burnin.
+Attempting theta (38/101) = 0.21435576336658174 for 1000 iterations + 100 burnin.
+Attempting theta (39/101) = 0.20322273802475366 for 1000 iterations + 100 burnin.
+Attempting theta (40/101) = 0.19250090844911202 for 1000 iterations + 100 burnin.
+Attempting theta (41/101) = 0.1821814557051778 for 1000 iterations + 100 burnin.
+Attempting theta (42/101) = 0.17225560892116176 for 1000 iterations + 100 burnin.
+Attempting theta (43/101) = 0.1627146458206033 for 1000 iterations + 100 burnin.
+Attempting theta (44/101) = 0.15354989327001706 for 1000 iterations + 100 burnin.
+Attempting theta (45/101) = 0.14475272784223595 for 1000 iterations + 100 burnin.
+Attempting theta (46/101) = 0.13631457639618247 for 1000 iterations + 100 burnin.
+Attempting theta (47/101) = 0.12822691667385014 for 1000 iterations + 100 burnin.
+Attempting theta (48/101) = 0.12048127791532504 for 1000 iterations + 100 burnin.
+Attempting theta (49/101) = 0.11306924149273806 for 1000 iterations + 100 burnin.
+Attempting theta (50/101) = 0.10598244156409653 for 1000 iterations + 100 burnin.
+Attempting theta (51/101) = 0.09921256574801246 for 1000 iterations + 100 burnin.
+Attempting theta (52/101) = 0.09275135582041685 for 1000 iterations + 100 burnin.
+Attempting theta (53/101) = 0.08659060843442937 for 1000 iterations + 100 burnin.
+Attempting theta (54/101) = 0.08072217586463991 for 1000 iterations + 100 burnin.
+Attempting theta (55/101) = 0.07513796677715448 for 1000 iterations + 100 burnin.
+Attempting theta (56/101) = 0.06982994702686253 for 1000 iterations + 100 burnin.
+Attempting theta (57/101) = 0.06479014048349967 for 1000 iterations + 100 burnin.
+Attempting theta (58/101) = 0.06001062988820621 for 1000 iterations + 100 burnin.
+Attempting theta (59/101) = 0.055483557742424465 for 1000 iterations + 100 burnin.
+Attempting theta (60/101) = 0.051201127231133854 for 1000 iterations + 100 burnin.
+Attempting theta (61/101) = 0.04715560318259695 for 1000 iterations + 100 burnin.
+Attempting theta (62/101) = 0.043339313066983146 for 1000 iterations + 100 burnin.
+Attempting theta (63/101) = 0.039744648036453514 for 1000 iterations + 100 burnin.
+Attempting theta (64/101) = 0.03636406400953165 for 1000 iterations + 100 burnin.
+Attempting theta (65/101) = 0.033190082802857665 for 1000 iterations + 100 burnin.
+Attempting theta (66/101) = 0.030215293313728214 for 1000 iterations + 100 burnin.
+Attempting theta (67/101) = 0.027432352757170694 for 1000 iterations + 100 burnin.
+Attempting theta (68/101) = 0.024833987961691194 for 1000 iterations + 100 burnin.
+Attempting theta (69/101) = 0.0224129967282808 for 1000 iterations + 100 burnin.
+Attempting theta (70/101) = 0.02016224925777198 for 1000 iterations + 100 burnin.
+Attempting theta (71/101) = 0.018074689652218572 for 1000 iterations + 100 burnin.
+Attempting theta (72/101) = 0.016143337496641163 for 1000 iterations + 100 burnin.
+Attempting theta (73/101) = 0.014361289528251987 for 1000 iterations + 100 burnin.
+Attempting theta (74/101) = 0.01272172140116927 for 1000 iterations + 100 burnin.
+Attempting theta (75/101) = 0.011217889555676173 for 1000 iterations + 100 burnin.
+Attempting theta (76/101) = 0.009843133202303695 for 1000 iterations + 100 burnin.
+Attempting theta (77/101) = 0.008590876432461226 for 1000 iterations + 100 burnin.
+Attempting theta (78/101) = 0.007454630469050414 for 1000 iterations + 100 burnin.
+Attempting theta (79/101) = 0.006427996072542175 for 1000 iterations + 100 burnin.
+Attempting theta (80/101) = 0.0055046661204539325 for 1000 iterations + 100 burnin.
+Attempting theta (81/101) = 0.004678428381140585 for 1000 iterations + 100 burnin.
+Attempting theta (82/101) = 0.003943168506448259 for 1000 iterations + 100 burnin.
+Attempting theta (83/101) = 0.0032928732722604936 for 1000 iterations + 100 burnin.
+Attempting theta (84/101) = 0.002721634101543468 for 1000 iterations + 100 burnin.
+Attempting theta (85/101) = 0.002223650911514547 for 1000 iterations + 100 burnin.
+Attempting theta (86/101) = 0.0017932363354956555 for 1000 iterations + 100 burnin.
+Attempting theta (87/101) = 0.001424820381547943 for 1000 iterations + 100 burnin.
+Attempting theta (88/101) = 0.0011129556050964646 for 1000 iterations + 100 burnin.
+Attempting theta (89/101) = 8.5232289288861E-4 for 1000 iterations + 100 burnin.
+Attempting theta (90/101) = 6.377379829750564E-4 for 1000 iterations + 100 burnin.
+Attempting theta (91/101) = 4.6415888336127784E-4 for 1000 iterations + 100 burnin.
+Attempting theta (92/101) = 3.2669440602401713E-4 for 1000 iterations + 100 burnin.
+Attempting theta (93/101) = 2.2061411225926482E-4 for 1000 iterations + 100 burnin.
+Attempting theta (94/101) = 1.4136008578343349E-4 for 1000 iterations + 100 burnin.
+Attempting theta (95/101) = 8.45611410492474E-5 for 1000 iterations + 100 burnin.
+Attempting theta (96/101) = 4.605039373300482E-5 for 1000 iterations + 100 burnin.
+Attempting theta (97/101) = 2.1887692117461713E-5 for 1000 iterations + 100 burnin.
+Attempting theta (98/101) = 8.389527766075414E-6 for 1000 iterations + 100 burnin.
+Attempting theta (99/101) = 2.171534093275924E-6 for 1000 iterations + 100 burnin.
+Attempting theta (100/101) = 2.1544346900318824E-7 for 1000 iterations + 100 burnin.
+Attempting theta (101/101) = 0.0 for 1000 iterations + 100 burnin.
+1 file(s) found with marginal likelihood samples
+PathParameter	MeanPathLikelihood	MLContribution
+0.0000	-2100.5	-0.00042046
+2.1544e-07	-1802.7	-0.0042702
+2.1715e-06	-2563.3	-0.014250
+8.3895e-06	-2020.0	-0.022284
+2.1888e-05	-1281.7	-0.026918
+4.6050e-05	-946.40	-0.042980
+8.4561e-05	-1285.7	-0.061982
+0.00014136	-896.81	-0.070047
+0.00022061	-870.83	-0.092448
+0.00032669	-872.16	-0.12088
+0.00046416	-886.53	-0.15573
+0.00063774	-907.81	-0.18406
+0.00085232	-807.70	-0.20944
+0.0011130	-799.43	-0.26671
+0.0014248	-911.01	-0.32115
+0.0017932	-832.39	-0.35209
+0.0022237	-803.66	-0.41924
+0.0027216	-880.08	-0.46685
+0.0032929	-754.42	-0.55826
+0.0039432	-962.53	-0.74651
+0.0046784	-1068.1	-0.84053
+0.0055047	-966.52	-0.79914
+0.0064280	-764.47	-0.90118
+0.0074546	-991.12	-1.1092
+0.0085909	-961.29	-1.1144
+0.0098431	-818.49	-1.0525
+0.011218	-712.62	-1.0636
+0.012722	-701.92	-1.1992
+0.014361	-760.86	-1.3634
+0.016143	-769.27	-1.4628
+0.018075	-745.47	-1.6097
+0.020162	-796.71	-1.7246
+0.022413	-735.76	-1.9140
+0.024834	-845.44	-2.0766
+0.027432	-752.95	-2.0373
+0.030215	-711.15	-2.1198
+0.033190	-714.01	-2.2865
+0.036364	-726.76	-2.4323
+0.039745	-712.22	-2.5458
+0.043339	-704.21	-2.6865
+0.047156	-703.68	-2.8636
+0.051201	-712.00	-3.0359
+0.055484	-705.85	-3.0954
+0.060011	-661.65	-3.2733
+0.064790	-708.08	-3.4497
+0.069830	-660.89	-3.4622
+0.075138	-643.62	-3.6106
+0.080722	-649.53	-3.8226
+0.086591	-653.22	-4.0719
+0.092751	-668.66	-4.3568
+0.099213	-679.94	-4.5487
+0.10598	-663.86	-4.6451
+0.11307	-647.05	-4.8606
+0.12048	-664.49	-5.0413
+0.12823	-637.22	-5.1188
+0.13631	-628.61	-5.3583
+0.14475	-641.40	-5.5622
+0.15355	-623.14	-5.8080
+0.16271	-644.32	-6.1117
+0.17226	-636.82	-6.3388
+0.18218	-640.40	-6.5221
+0.19250	-623.63	-6.6953
+0.20322	-625.28	-6.8470
+0.21436	-604.77	-6.9113
+0.22591	-591.68	-7.0977
+0.23789	-593.04	-7.3228
+0.25031	-586.16	-7.4927
+0.26318	-578.48	-7.7215
+0.27650	-580.65	-7.9789
+0.29029	-576.73	-8.0626
+0.30455	-553.90	-8.2435
+0.31930	-564.20	-8.5268
+0.33454	-554.92	-8.8258
+0.35028	-566.51	-9.1041
+0.36653	-553.88	-9.3073
+0.38330	-555.97	-9.5262
+0.40060	-545.20	-9.7680
+0.41844	-549.78	-10.128
+0.43683	-551.66	-10.473
+0.45578	-553.76	-10.836
+0.47530	-556.68	-10.958
+0.49539	-533.93	-11.097
+0.51608	-539.17	-11.430
+0.53735	-535.19	-11.676
+0.55924	-531.81	-11.907
+0.58174	-526.52	-12.266
+0.60487	-534.14	-12.460
+0.62863	-514.46	-12.562
+0.65304	-514.78	-13.047
+0.67811	-526.23	-13.482
+0.70384	-521.67	-13.848
+0.73025	-527.13	-14.218
+0.75734	-522.45	-14.593
+0.78513	-527.77	-14.961
+0.81363	-522.30	-15.426
+0.84284	-533.88	-16.335
+0.87278	-557.37	-16.989
+0.90345	-550.29	-17.434
+0.93488	-559.38	-18.120
+0.96705	-566.82	-18.764
+1.0000	-572.24	
+
+log marginal likelihood (using path sampling) from pathLikelihood.delta = -573.8736768340004
+
+Inner area for path parameter in (2.1544e-07,0.96705) = -573.87
+
+1 file(s) found with marginal likelihood samples
+PathParameter	MaxPathLikelihood	MLContribution
+0.0000	-2100.5	-0.00045254
+2.1544e-07	-1802.7	-0.0035263
+2.1715e-06	-2563.3	-0.015939
+8.3895e-06	-2020.0	-0.027267
+2.1888e-05	-1281.7	-0.030969
+4.6050e-05	-946.40	-0.036446
+8.4561e-05	-1285.7	-0.073027
+0.00014136	-896.81	-0.071076
+0.00022061	-870.83	-0.092378
+0.00032669	-872.16	-0.11989
+0.00046416	-886.53	-0.15388
+0.00063774	-907.81	-0.19480
+0.00085232	-807.70	-0.21051
+0.0011130	-799.43	-0.24932
+0.0014248	-911.01	-0.33563
+0.0017932	-832.39	-0.35827
+0.0022237	-803.66	-0.40021
+0.0027216	-880.08	-0.50274
+0.0032929	-754.42	-0.49060
+0.0039432	-962.53	-0.70771
+0.0046784	-1068.1	-0.88249
+0.0055047	-966.52	-0.89241
+0.0064280	-764.47	-0.78483
+0.0074546	-991.12	-1.1262
+0.0085909	-961.29	-1.2038
+0.0098431	-818.49	-1.1252
+0.011218	-712.62	-1.0717
+0.012722	-701.92	-1.1508
+0.014361	-760.86	-1.3559
+0.016143	-769.27	-1.4857
+0.018075	-745.47	-1.5562
+0.020162	-796.71	-1.7932
+0.022413	-735.76	-1.7813
+0.024834	-845.44	-2.1968
+0.027432	-752.95	-2.0954
+0.030215	-711.15	-2.1155
+0.033190	-714.01	-2.2663
+0.036364	-726.76	-2.4569
+0.039745	-712.22	-2.5602
+0.043339	-704.21	-2.6875
+0.047156	-703.68	-2.8468
+0.051201	-712.00	-3.0491
+0.055484	-705.85	-3.1954
+0.060011	-661.65	-3.1624
+0.064790	-708.08	-3.5686
+0.069830	-660.89	-3.5080
+0.075138	-643.62	-3.5941
+0.080722	-649.53	-3.8117
+0.086591	-653.22	-4.0243
+0.092751	-668.66	-4.3203
+0.099213	-679.94	-4.6031
+0.10598	-663.86	-4.7047
+0.11307	-647.05	-4.7960
+0.12048	-664.49	-5.1469
+0.12823	-637.22	-5.1536
+0.13631	-628.61	-5.3043
+0.14475	-641.40	-5.6425
+0.15355	-623.14	-5.7109
+0.16271	-644.32	-6.1474
+0.17226	-636.82	-6.3210
+0.18218	-640.40	-6.6086
+0.19250	-623.63	-6.6865
+0.20322	-625.28	-6.9612
+0.21436	-604.77	-6.9869
+0.22591	-591.68	-7.0895
+0.23789	-593.04	-7.3655
+0.25031	-586.16	-7.5421
+0.26318	-578.48	-7.7071
+0.27650	-580.65	-8.0060
+0.29029	-576.73	-8.2254
+0.30455	-553.90	-8.1676
+0.31930	-564.20	-8.5974
+0.33454	-554.92	-8.7346
+0.35028	-566.51	-9.2067
+0.36653	-553.88	-9.2898
+0.38330	-555.97	-9.6194
+0.40060	-545.20	-9.7271
+0.41844	-549.78	-10.111
+0.43683	-551.66	-10.453
+0.45578	-553.76	-10.808
+0.47530	-556.68	-11.186
+0.49539	-533.93	-11.043
+0.51608	-539.17	-11.473
+0.53735	-535.19	-11.713
+0.55924	-531.81	-11.967
+0.58174	-526.52	-12.177
+0.60487	-534.14	-12.693
+0.62863	-514.46	-12.558
+0.65304	-514.78	-12.904
+0.67811	-526.23	-13.541
+0.70384	-521.67	-13.776
+0.73025	-527.13	-14.282
+0.75734	-522.45	-14.519
+0.78513	-527.77	-15.039
+0.81363	-522.30	-15.257
+0.84284	-533.88	-15.983
+0.87278	-557.37	-17.097
+0.90345	-550.29	-17.291
+0.93488	-559.38	-18.000
+0.96705	-566.82	-18.675
+1.0000	-572.24	
+
+log marginal likelihood (using stepping stone sampling) from pathLikelihood.delta = -574.3408062224671
+
+15.515 seconds 
+
+                  BEAST v1.8.2, 2002-2015
+       Bayesian Evolutionary Analysis Sampling Trees
+                 Designed and developed by
+   Alexei J. Drummond, Andrew Rambaut and Marc A. Suchard
+                              
+               Department of Computer Science
+                   University of Auckland
+                  alexei@cs.auckland.ac.nz
+                              
+             Institute of Evolutionary Biology
+                  University of Edinburgh
+                     a.rambaut@ed.ac.uk
+                              
+              David Geffen School of Medicine
+           University of California, Los Angeles
+                     msuchard@ucla.edu
+                              
+                Downloads, Help & Resources:
+                 	http://beast.bio.ed.ac.uk
+                              
+Source code distributed under the GNU Lesser General Public License:
+            	http://code.google.com/p/beast-mcmc
+                              
+                     BEAST developers:
+	Alex Alekseyenko, Guy Baele, Trevor Bedford, Filip Bielejec, Erik Bloomquist, Matthew Hall,
+	Joseph Heled, Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li,
+	Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel,
+          	Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                              
+                         Thanks to:
+    	Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Using BEAGLE library v1.x for accelerated, parallel likelihood evaluation
+2009-2013, BEAGLE Working Group - http://beagle-lib.googlecode.com/
+Citation: Ayres et al (2012) Systematic Biology 61: 170-173 | doi:10.1093/sysbio/syr100
+
+WARNING: You are currenly using BEAGLE v1.x. For best performance and compatibility
+with models in BEAST, please upgrade to BEAGLE v2.x at http://beagle-lib.googlecode.com/
+
+
+Random number seed: 1436620146408
+
+
+Failed to load parser: dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+line = dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+
+
+
+Loading additional development parsers from development_parsers.properties, which is additional set of parsers only available for development version ...
+
+WARNING: parser - dr.app.beagle.multidimensionalscaling.MultiDimensionalScalingLikelihood in development_parsers.properties is duplicated, which is REPLACING the same parser loaded previously.
+
+Parsing XML file: st239_complete_rc.xml
+  File encoding: MacRoman
+Looking for plugins in /Users/sebastianducheneAIr/Desktop/sandbox/bacterial_rates_notebooks/summarise_xmls/plugins
+Read alignment: alignment
+  Sequences = 112
+      Sites = 2716
+   Datatype = nucleotide
+Site patterns 'patterns' created from positions 1-2716 of alignment 'alignment'
+  unique pattern count = 918
+Creating the tree model, 'treeModel'
+  initial tree topology = (((((((((((((((BPH2002_2002,BPH2007_2001),JKD6005_2002),BPH2011_2001),BPH0503_2003),((AGT1_1997,BPH2032_1998),BZ48_1997)),(((BPH2013_2004,S87_2007),JKD6004_2002),BPH0499_2005)),BPH2086_1982),((((BPH2004_2001,CHI59_1998),JKD6022_2001),BRA2_1997),BPH2083_1982)),(((((BPH0502_2003,BPH2023_2006),(BPH0510_2005,BPH2017_2005)),((S106_2007,S40_2006),BPH2022_2005)),BPH2014_1999),((BPH2088_1982,LHH1_1994),BPH2057_1981))),BPH2054_1980),((2A8_2001,S93_2007),BPH2010_2001)),(((((((((((S38_2006,S7_2006),BPH2029_2009),(BPH0491_2005,S78_2007)),BPH2021_2004),S26_2006),(BPH0475_2003,BPH2006_2001)),(BPH2075_1982,BPH2085_1982)),(BPH2012_1999,BPH2034_2008)),(((((((JKD6000_2002,JKD6021_2001),(S102_2007,S39_2006)),JKD6007_2002),BPH2008_2000),BPH2082_1982),BPH2056_1981),BPH2078_1982)),BPH2084_1982),(BPH2072_1982,BPH2081_1982))),(((((((((((BPH2026_2007,BPH2090_2012),S81_2007),JKD6001_2003),BPH2095_2003),(BPH2033_2008,BPH2099_2007)),(((BPH2096_2005,S71_2007),BPH2015_2004),JKD6008_2003)),((((((BPH2097_2007,JKD6051_2003),S2_2006),CHI61_1998),BPH2094_1998),AGT67_1997),BPH2055_1980)),((BPH0494_2005,BPH0509_2005),S25_2006)),BPH2059_1981),BPH2077_1982),(((((BPH0468_2005,BPH2016_2005),JKD6009_2003),((BPH2025_2008,BPH2037_2008),BPH0488_2003)),TUR1_1996),((BPH2068_2009,BPH2098_2007),JKD6121_2005)))),(((BPH2009_2000,BPH2071_1998),BPH2028_2007),BPH2073_1982)),((((((((((((BPH2031_2008,BPH2035_2008),BPH2024_2007),BPH0508_2006),JKD6052_2004),BPH2045_2007),JKD6023_2001),BPH2003_2001),AGT9_1997),(((BPH0496_2004,BPH2019_2005),BPH2005_1999),(BPH2070_1998,URU34_1997))),BPH2079_1982),BPH2080_1982),BPH2018_2004))
+  tree height = 225.83835397084346
+Using discretized relaxed clock model.
+  over sampling = 1
+  parametric model = logNormalDistributionModel
+   rate categories = 1
+Creating state frequencies model 'frequencies': Initial frequencies = {0.25, 0.25, 0.25, 0.25}
+Creating site model: 
+  4 category discrete gamma with initial shape = 0.5
+Using BEAGLE TreeLikelihood
+  Branch rate model used: discretizedBranchRates
+  Using BEAGLE resource 0: CPU
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU
+  Ignoring ambiguities in tree likelihood.
+  With 918 unique site patterns.
+  Using rescaling scheme : dynamic (rescaling every 100 evaluations)
+Creating swap operator for parameter branchRates.categories (weight=10.0)
+Optimization Schedule: default
+Likelihood computation is using an auto sizing thread pool.
+Creating the MCMC chain:
+  chainLength=10000
+  autoOptimize=true
+  autoOptimize delayed for 100 steps
+# BEAST v1.8.2, r6692
+# Generated Sat Jul 11 15:09:07 CEST 2015 [seed=1436620146408]
+state	Posterior   	Prior       	Likelihood  	rootHeight  	ucld.mean   
+0	-71911.8198 	-690.5721   	-71221.2477 	225.838     	5E-2        	-
+
+                  BEAST v1.8.2, 2002-2015
+       Bayesian Evolutionary Analysis Sampling Trees
+                 Designed and developed by
+   Alexei J. Drummond, Andrew Rambaut and Marc A. Suchard
+                              
+               Department of Computer Science
+                   University of Auckland
+                  alexei@cs.auckland.ac.nz
+                              
+             Institute of Evolutionary Biology
+                  University of Edinburgh
+                     a.rambaut@ed.ac.uk
+                              
+              David Geffen School of Medicine
+           University of California, Los Angeles
+                     msuchard@ucla.edu
+                              
+                Downloads, Help & Resources:
+                 	http://beast.bio.ed.ac.uk
+                              
+Source code distributed under the GNU Lesser General Public License:
+            	http://code.google.com/p/beast-mcmc
+                              
+                     BEAST developers:
+	Alex Alekseyenko, Guy Baele, Trevor Bedford, Filip Bielejec, Erik Bloomquist, Matthew Hall,
+	Joseph Heled, Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li,
+	Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel,
+          	Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                              
+                         Thanks to:
+    	Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Using BEAGLE library v1.x for accelerated, parallel likelihood evaluation
+2009-2013, BEAGLE Working Group - http://beagle-lib.googlecode.com/
+Citation: Ayres et al (2012) Systematic Biology 61: 170-173 | doi:10.1093/sysbio/syr100
+
+WARNING: You are currenly using BEAGLE v1.x. For best performance and compatibility
+with models in BEAST, please upgrade to BEAGLE v2.x at http://beagle-lib.googlecode.com/
+
+
+Random number seed: 1436620152412
+
+Jul 11, 2015 3:09:12 PM dr.app.beast.BeastMain <init>
+SEVERE: File error: st239_complete_rs.xml (No such file or directory)
+java.lang.RuntimeException: Terminate
+	at dr.app.beast.BeastMain.<init>(Unknown Source)
+	at dr.app.beast.BeastMain.main(Unknown Source)
+
+                  BEAST v1.8.2, 2002-2015
+       Bayesian Evolutionary Analysis Sampling Trees
+                 Designed and developed by
+   Alexei J. Drummond, Andrew Rambaut and Marc A. Suchard
+                              
+               Department of Computer Science
+                   University of Auckland
+                  alexei@cs.auckland.ac.nz
+                              
+             Institute of Evolutionary Biology
+                  University of Edinburgh
+                     a.rambaut@ed.ac.uk
+                              
+              David Geffen School of Medicine
+           University of California, Los Angeles
+                     msuchard@ucla.edu
+                              
+                Downloads, Help & Resources:
+                 	http://beast.bio.ed.ac.uk
+                              
+Source code distributed under the GNU Lesser General Public License:
+            	http://code.google.com/p/beast-mcmc
+                              
+                     BEAST developers:
+	Alex Alekseyenko, Guy Baele, Trevor Bedford, Filip Bielejec, Erik Bloomquist, Matthew Hall,
+	Joseph Heled, Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li,
+	Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel,
+          	Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                              
+                         Thanks to:
+    	Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Using BEAGLE library v1.x for accelerated, parallel likelihood evaluation
+2009-2013, BEAGLE Working Group - http://beagle-lib.googlecode.com/
+Citation: Ayres et al (2012) Systematic Biology 61: 170-173 | doi:10.1093/sysbio/syr100
+
+WARNING: You are currenly using BEAGLE v1.x. For best performance and compatibility
+with models in BEAST, please upgrade to BEAGLE v2.x at http://beagle-lib.googlecode.com/
+
+
+Random number seed: 1436620162579
+
+
+Failed to load parser: dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+line = dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+
+
+
+Loading additional development parsers from development_parsers.properties, which is additional set of parsers only available for development version ...
+
+WARNING: parser - dr.app.beagle.multidimensionalscaling.MultiDimensionalScalingLikelihood in development_parsers.properties is duplicated, which is REPLACING the same parser loaded previously.
+
+Parsing XML file: st239_complete_sc.xml
+  File encoding: MacRoman
+Looking for plugins in /Users/sebastianducheneAIr/Desktop/sandbox/bacterial_rates_notebooks/summarise_xmls/plugins
+Read alignment: alignment
+  Sequences = 112
+      Sites = 2716
+   Datatype = nucleotide
+Site patterns 'patterns' created from positions 1-2716 of alignment 'alignment'
+  unique pattern count = 918
+Creating the tree model, 'treeModel'
+  initial tree topology = ((((((((((((((BPH0468_2005,S2_2006),BPH0502_2003),2A8_2001),((BPH2099_2007,S7_2006),S81_2007)),(BPH2014_1999,BPH2095_2003)),((BPH0496_2004,BPH0499_2005),BPH2025_2008)),((((BPH2026_2007,S106_2007),JKD6009_2003),(BPH2011_2001,JKD6023_2001)),((BPH0488_2003,S40_2006),(BPH2032_1998,JKD6121_2005)))),BPH2055_1980),(((((BPH2098_2007,JKD6052_2004),BPH0503_2003),(BPH2018_2004,S39_2006)),JKD6021_2001),S93_2007)),(((BPH2086_1982,URU34_1997),BPH2073_1982),BPH2082_1982)),((((((((BPH2021_2004,S102_2007),BPH0508_2006),(BPH2022_2005,BPH2024_2007)),LHH1_1994),((((BPH2045_2007,S25_2006),S38_2006),BZ48_1997),((BPH0510_2005,BPH2019_2005),JKD6008_2003))),((BPH2004_2001,BPH2012_1999),TUR1_1996)),(BPH2075_1982,BPH2081_1982)),((BPH2077_1982,BPH2080_1982),BPH2005_1999))),((((BPH2079_1982,BPH2083_1982),BPH2088_1982),(BPH2007_2001,BPH2033_2008)),BPH2056_1981)),((((((((((((BPH2015_2004,JKD6001_2003),JKD6000_2002),AGT1_1997),BPH2023_2006),BPH2010_2001),(BPH2006_2001,BPH2037_2008)),BPH2008_2000),CHI61_1998),BPH2054_1980),(((((BPH2002_2002,BPH2096_2005),JKD6004_2002),BPH0494_2005),BPH2057_1981),BPH2084_1982)),((((BPH0509_2005,BPH2031_2008),JKD6051_2003),(BPH0475_2003,S26_2006)),BPH2078_1982)),(((((((((BPH2097_2007,S78_2007),BPH2029_2009),JKD6005_2002),BPH2003_2001),CHI59_1998),BPH2016_2005),BPH2028_2007),BPH2072_1982),(((AGT67_1997,BPH2090_2012),BPH2085_1982),BPH2059_1981)))),((((((((BPH2017_2005,BPH2034_2008),BPH0491_2005),JKD6007_2002),(((BPH2035_2008,S87_2007),(BPH2068_2009,S71_2007)),BPH2013_2004)),JKD6022_2001),(BPH2009_2000,BPH2094_1998)),(AGT9_1997,BPH2071_1998)),(BPH2070_1998,BRA2_1997)))
+  tree height = 297.4123540565108
+Using strict molecular clock model.
+Creating state frequencies model 'frequencies': Initial frequencies = {0.25, 0.25, 0.25, 0.25}
+Creating site model: 
+  4 category discrete gamma with initial shape = 0.5
+Using BEAGLE TreeLikelihood
+  Branch rate model used: strictClockBranchRates
+  Using BEAGLE resource 0: CPU
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU
+  Ignoring ambiguities in tree likelihood.
+  With 918 unique site patterns.
+  Using rescaling scheme : dynamic (rescaling every 100 evaluations)
+Optimization Schedule: default
+Likelihood computation is using an auto sizing thread pool.
+Creating the MCMC chain:
+  chainLength=10000
+  autoOptimize=true
+  autoOptimize delayed for 100 steps
+# BEAST v1.8.2, r6692
+# Generated Sat Jul 11 15:09:23 CEST 2015 [seed=1436620162579]
+state	Posterior   	Prior       	Likelihood  	rootHeight  	clock.rate  
+0	-142324.2357	-681.6355   	-141642.6002	297.412     	1.00000     	-
+5000	-36936.9345 	-896.1325   	-36040.8020 	106.427     	8.26341E-4  	-
+10000	-28537.7539 	-859.8366   	-27677.9173 	104.444     	6.14582E-4  	-
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) 
+scale(ac)                                         0.625   10         34       3.4      0.4         
+scale(ag)                                         0.615   7          26       3.71     0.4286      
+scale(at)                                         0.577   10         41       4.1      0.5         
+scale(cg)                                         0.661   11         31       2.82     0.3636      
+scale(gt)                                         0.632   8          28       3.5      0.625       
+frequencies                                       0.023   5          25       5.0      0.8         
+scale(alpha)                                      0.705   11         37       3.36     0.4545      
+scale(ucld.mean)                                  0.66    295        984      3.34     0.1525      
+scale(ucld.stdev)                                 0.715   282        936      3.32     0.1631      
+subtreeSlide(treeModel)                           10.57   1491       636      0.43     0.2441      
+Narrow Exchange(treeModel)                                1454       540      0.37     0.2435      
+Wide Exchange(treeModel)                                  301        82       0.27     0.0664      
+wilsonBalding(treeModel)                                  270        181      0.67     0.1259      
+scale(treeModel.rootHeight)                       0.801   308        49       0.16     0.1948      
+uniform(nodeHeights(treeModel))                           2889       1461     0.51     0.3711      
+scale(constant.popSize)                           0.594   268        9        0.03     0.2649      
+up:ucld.mean down:nodeHeights(treeModel)          0.859   288        679      2.36     0.1875      
+swapOperator(branchRates.categories)                      955        620      0.65     0.3319      
+uniformInteger(branchRates.categories)                    1037       494      0.48     0.4638      
+
+
+Creating the Marginal Likelihood Estimator chain:
+  chainLength=1000
+  pathSteps=100
+  pathScheme=betaQuantile(0.3)
+  If you use these results, please cite:
+    Guy Baele, Philippe Lemey, Trevor Bedford, Andrew Rambaut, Marc A. Suchard, and Alexander V. Alekseyenko.
+    2012. Improving the accuracy of demographic and molecular clock model comparison while accommodating 
+          phylogenetic uncertainty. Mol. Biol. Evol. 29(9):2157-2167.
+    and 
+    Guy Baele, Wai Lok Sibon Li, Alexei J. Drummond, Marc A. Suchard, and Philippe Lemey. 2013.
+    Accurate model selection of relaxed molecular clocks in Bayesian phylogenetics. Mol. Biol. Evol. 30(2):239-243.
+
+Attempting theta (1/101) = 1.0 for 1000 iterations + 100 burnin.
+Attempting theta (2/101) = 0.9670538286027488 for 1000 iterations + 100 burnin.
+5000	-33380.8323 	-734.0492   	-32646.7831 	60.2462     	1.50848E-3  	-
+Attempting theta (3/101) = 0.9348750848354606 for 1000 iterations + 100 burnin.
+Attempting theta (4/101) = 0.9034534504706005 for 1000 iterations + 100 burnin.
+Attempting theta (5/101) = 0.872778642317937 for 1000 iterations + 100 burnin.
+10000	-24349.3967 	-738.3549   	-23611.0418 	70.1847     	8.71288E-4  	-
+Attempting theta (6/101) = 0.8428404124649498 for 1000 iterations + 100 burnin.
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) 
+scale(ac)                                         0.743   18         79       4.39     0.2778      
+scale(ag)                                         0.581   10         37       3.7      0.6         
+scale(at)                                         0.7     13         52       4.0      0.4615      
+scale(cg)                                         0.679   13         52       4.0      0.5385      
+scale(gt)                                         0.61    14         48       3.43     0.2857      
+frequencies                                       0.016   13         48       3.69     0.3077      
+scale(alpha)                                      0.66    14         56       4.0      0.6429      
+scale(clock.rate)                                 0.724   362        1288     3.56     0.1657      
+subtreeSlide(treeModel)                           10.42   1839       742      0.4      0.1381      
+Narrow Exchange(treeModel)                                1874       743      0.4      0.2593      
+Wide Exchange(treeModel)                                  362        84       0.23     0.0442      
+wilsonBalding(treeModel)                                  398        306      0.77     0.1432      
+scale(treeModel.rootHeight)                       0.679   345        67       0.19     0.0957      
+uniform(nodeHeights(treeModel))                           3825       2474     0.65     0.3838      
+scale(constant.popSize)                           0.62    392        8        0.02     0.3367      
+up:clock.rate down:nodeHeights(treeModel)         0.964   408        872      2.14     0.0956      
+
+
+Creating the Marginal Likelihood Estimator chain:
+  chainLength=1000
+  pathSteps=100
+  pathScheme=betaQuantile(0.3)
+  If you use these results, please cite:
+    Guy Baele, Philippe Lemey, Trevor Bedford, Andrew Rambaut, Marc A. Suchard, and Alexander V. Alekseyenko.
+    2012. Improving the accuracy of demographic and molecular clock model comparison while accommodating 
+          phylogenetic uncertainty. Mol. Biol. Evol. 29(9):2157-2167.
+    and 
+    Guy Baele, Wai Lok Sibon Li, Alexei J. Drummond, Marc A. Suchard, and Philippe Lemey. 2013.
+    Accurate model selection of relaxed molecular clocks in Bayesian phylogenetics. Mol. Biol. Evol. 30(2):239-243.
+
+Attempting theta (1/101) = 1.0 for 1000 iterations + 100 burnin.
+Attempting theta (2/101) = 0.9670538286027488 for 1000 iterations + 100 burnin.
+Attempting theta (7/101) = 0.8136285485214058 for 1000 iterations + 100 burnin.
+Attempting theta (3/101) = 0.9348750848354606 for 1000 iterations + 100 burnin.
+Attempting theta (8/101) = 0.785132873868218 for 1000 iterations + 100 burnin.
+Attempting theta (4/101) = 0.9034534504706005 for 1000 iterations + 100 burnin.
+Attempting theta (9/101) = 0.7573432479107086 for 1000 iterations + 100 burnin.
+Attempting theta (5/101) = 0.872778642317937 for 1000 iterations + 100 burnin.
+Attempting theta (10/101) = 0.7302495663364068 for 1000 iterations + 100 burnin.
+Attempting theta (6/101) = 0.8428404124649498 for 1000 iterations + 100 burnin.
+Attempting theta (11/101) = 0.7038417613775041 for 1000 iterations + 100 burnin.
+Attempting theta (7/101) = 0.8136285485214058 for 1000 iterations + 100 burnin.
+Attempting theta (12/101) = 0.678109802078112 for 1000 iterations + 100 burnin.
+Attempting theta (8/101) = 0.785132873868218 for 1000 iterations + 100 burnin.
+Attempting theta (13/101) = 0.6530436945664579 for 1000 iterations + 100 burnin.
+Attempting theta (9/101) = 0.7573432479107086 for 1000 iterations + 100 burnin.
+Attempting theta (14/101) = 0.6286334823321714 for 1000 iterations + 100 burnin.
+Attempting theta (10/101) = 0.7302495663364068 for 1000 iterations + 100 burnin.
+Attempting theta (15/101) = 0.6048692465088115 for 1000 iterations + 100 burnin.
+Attempting theta (11/101) = 0.7038417613775041 for 1000 iterations + 100 burnin.
+Attempting theta (16/101) = 0.5817411061617966 for 1000 iterations + 100 burnin.
+Attempting theta (12/101) = 0.678109802078112 for 1000 iterations + 100 burnin.
+Attempting theta (17/101) = 0.5592392185819061 for 1000 iterations + 100 burnin.
+Attempting theta (13/101) = 0.6530436945664579 for 1000 iterations + 100 burnin.
+Attempting theta (14/101) = 0.6286334823321714 for 1000 iterations + 100 burnin.
+Attempting theta (18/101) = 0.5373537795845235 for 1000 iterations + 100 burnin.
+Attempting theta (15/101) = 0.6048692465088115 for 1000 iterations + 100 burnin.
+Attempting theta (19/101) = 0.5160750238148092 for 1000 iterations + 100 burnin.
+Attempting theta (16/101) = 0.5817411061617966 for 1000 iterations + 100 burnin.
+Attempting theta (20/101) = 0.49539322505898753 for 1000 iterations + 100 burnin.
+Attempting theta (17/101) = 0.5592392185819061 for 1000 iterations + 100 burnin.
+Attempting theta (21/101) = 0.4752986965619486 for 1000 iterations + 100 burnin.
+Attempting theta (18/101) = 0.5373537795845235 for 1000 iterations + 100 burnin.
+Attempting theta (22/101) = 0.4557817913513756 for 1000 iterations + 100 burnin.
+Attempting theta (19/101) = 0.5160750238148092 for 1000 iterations + 100 burnin.
+Attempting theta (23/101) = 0.436832902568608 for 1000 iterations + 100 burnin.
+Attempting theta (20/101) = 0.49539322505898753 for 1000 iterations + 100 burnin.
+Attempting theta (24/101) = 0.418442463806474 for 1000 iterations + 100 burnin.
+Attempting theta (21/101) = 0.4752986965619486 for 1000 iterations + 100 burnin.
+Attempting theta (22/101) = 0.4557817913513756 for 1000 iterations + 100 burnin.
+Attempting theta (25/101) = 0.40060094945432584 for 1000 iterations + 100 burnin.
+Attempting theta (23/101) = 0.436832902568608 for 1000 iterations + 100 burnin.
+Attempting theta (26/101) = 0.38329887505052945 for 1000 iterations + 100 burnin.
+Attempting theta (24/101) = 0.418442463806474 for 1000 iterations + 100 burnin.
+Attempting theta (27/101) = 0.36652679764266793 for 1000 iterations + 100 burnin.
+Attempting theta (25/101) = 0.40060094945432584 for 1000 iterations + 100 burnin.
+Attempting theta (28/101) = 0.3502753161557333 for 1000 iterations + 100 burnin.
+Attempting theta (26/101) = 0.38329887505052945 for 1000 iterations + 100 burnin.
+Attempting theta (29/101) = 0.33453507176859365 for 1000 iterations + 100 burnin.
+Attempting theta (27/101) = 0.36652679764266793 for 1000 iterations + 100 burnin.
+Attempting theta (30/101) = 0.3192967482990375 for 1000 iterations + 100 burnin.
+Attempting theta (28/101) = 0.3502753161557333 for 1000 iterations + 100 burnin.
+Attempting theta (31/101) = 0.30455107259771197 for 1000 iterations + 100 burnin.
+Attempting theta (29/101) = 0.33453507176859365 for 1000 iterations + 100 burnin.
+Attempting theta (30/101) = 0.3192967482990375 for 1000 iterations + 100 burnin.
+Attempting theta (32/101) = 0.2902888149512887 for 1000 iterations + 100 burnin.
+Attempting theta (31/101) = 0.30455107259771197 for 1000 iterations + 100 burnin.
+Attempting theta (33/101) = 0.2765007894952082 for 1000 iterations + 100 burnin.
+Attempting theta (32/101) = 0.2902888149512887 for 1000 iterations + 100 burnin.
+Attempting theta (34/101) = 0.26317785463637045 for 1000 iterations + 100 burnin.
+Attempting theta (33/101) = 0.2765007894952082 for 1000 iterations + 100 burnin.
+Attempting theta (35/101) = 0.2503109134861649 for 1000 iterations + 100 burnin.
+Attempting theta (34/101) = 0.26317785463637045 for 1000 iterations + 100 burnin.
+Attempting theta (36/101) = 0.23789091430424544 for 1000 iterations + 100 burnin.
+Attempting theta (35/101) = 0.2503109134861649 for 1000 iterations + 100 burnin.
+Attempting theta (37/101) = 0.22590885095348726 for 1000 iterations + 100 burnin.
+Attempting theta (36/101) = 0.23789091430424544 for 1000 iterations + 100 burnin.
+Attempting theta (38/101) = 0.21435576336658174 for 1000 iterations + 100 burnin.
+Attempting theta (37/101) = 0.22590885095348726 for 1000 iterations + 100 burnin.
+Attempting theta (39/101) = 0.20322273802475366 for 1000 iterations + 100 burnin.
+Attempting theta (38/101) = 0.21435576336658174 for 1000 iterations + 100 burnin.
+Attempting theta (40/101) = 0.19250090844911202 for 1000 iterations + 100 burnin.
+Attempting theta (39/101) = 0.20322273802475366 for 1000 iterations + 100 burnin.
+Attempting theta (40/101) = 0.19250090844911202 for 1000 iterations + 100 burnin.
+Attempting theta (41/101) = 0.1821814557051778 for 1000 iterations + 100 burnin.
+Attempting theta (41/101) = 0.1821814557051778 for 1000 iterations + 100 burnin.
+Attempting theta (42/101) = 0.17225560892116176 for 1000 iterations + 100 burnin.
+Attempting theta (42/101) = 0.17225560892116176 for 1000 iterations + 100 burnin.
+Attempting theta (43/101) = 0.1627146458206033 for 1000 iterations + 100 burnin.
+Attempting theta (43/101) = 0.1627146458206033 for 1000 iterations + 100 burnin.
+Attempting theta (44/101) = 0.15354989327001706 for 1000 iterations + 100 burnin.
+Attempting theta (44/101) = 0.15354989327001706 for 1000 iterations + 100 burnin.
+Attempting theta (45/101) = 0.14475272784223595 for 1000 iterations + 100 burnin.
+Attempting theta (45/101) = 0.14475272784223595 for 1000 iterations + 100 burnin.
+Attempting theta (46/101) = 0.13631457639618247 for 1000 iterations + 100 burnin.
+Attempting theta (46/101) = 0.13631457639618247 for 1000 iterations + 100 burnin.
+Attempting theta (47/101) = 0.12822691667385014 for 1000 iterations + 100 burnin.
+Attempting theta (47/101) = 0.12822691667385014 for 1000 iterations + 100 burnin.
+Attempting theta (48/101) = 0.12048127791532504 for 1000 iterations + 100 burnin.
+Attempting theta (48/101) = 0.12048127791532504 for 1000 iterations + 100 burnin.
+Attempting theta (49/101) = 0.11306924149273806 for 1000 iterations + 100 burnin.
+Attempting theta (49/101) = 0.11306924149273806 for 1000 iterations + 100 burnin.
+Attempting theta (50/101) = 0.10598244156409653 for 1000 iterations + 100 burnin.
+Attempting theta (50/101) = 0.10598244156409653 for 1000 iterations + 100 burnin.
+Attempting theta (51/101) = 0.09921256574801246 for 1000 iterations + 100 burnin.
+Attempting theta (51/101) = 0.09921256574801246 for 1000 iterations + 100 burnin.
+Attempting theta (52/101) = 0.09275135582041685 for 1000 iterations + 100 burnin.
+Attempting theta (52/101) = 0.09275135582041685 for 1000 iterations + 100 burnin.
+Attempting theta (53/101) = 0.08659060843442937 for 1000 iterations + 100 burnin.
+Attempting theta (53/101) = 0.08659060843442937 for 1000 iterations + 100 burnin.
+Attempting theta (54/101) = 0.08072217586463991 for 1000 iterations + 100 burnin.
+
+                  BEAST v1.8.2, 2002-2015
+       Bayesian Evolutionary Analysis Sampling Trees
+                 Designed and developed by
+   Alexei J. Drummond, Andrew Rambaut and Marc A. Suchard
+                              
+               Department of Computer Science
+                   University of Auckland
+                  alexei@cs.auckland.ac.nz
+                              
+             Institute of Evolutionary Biology
+                  University of Edinburgh
+                     a.rambaut@ed.ac.uk
+                              
+              David Geffen School of Medicine
+           University of California, Los Angeles
+                     msuchard@ucla.edu
+                              
+                Downloads, Help & Resources:
+                 	http://beast.bio.ed.ac.uk
+                              
+Source code distributed under the GNU Lesser General Public License:
+            	http://code.google.com/p/beast-mcmc
+                              
+                     BEAST developers:
+	Alex Alekseyenko, Guy Baele, Trevor Bedford, Filip Bielejec, Erik Bloomquist, Matthew Hall,
+	Joseph Heled, Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li,
+	Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel,
+          	Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                              
+                         Thanks to:
+    	Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Using BEAGLE library v1.x for accelerated, parallel likelihood evaluation
+2009-2013, BEAGLE Working Group - http://beagle-lib.googlecode.com/
+Citation: Ayres et al (2012) Systematic Biology 61: 170-173 | doi:10.1093/sysbio/syr100
+
+WARNING: You are currenly using BEAGLE v1.x. For best performance and compatibility
+with models in BEAST, please upgrade to BEAGLE v2.x at http://beagle-lib.googlecode.com/
+
+
+Random number seed: 1436620224950
+
+
+Failed to load parser: dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+line = dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+
+
+Attempting theta (54/101) = 0.08072217586463991 for 1000 iterations + 100 burnin.
+Attempting theta (55/101) = 0.07513796677715448 for 1000 iterations + 100 burnin.
+
+Loading additional development parsers from development_parsers.properties, which is additional set of parsers only available for development version ...
+
+WARNING: parser - dr.app.beagle.multidimensionalscaling.MultiDimensionalScalingLikelihood in development_parsers.properties is duplicated, which is REPLACING the same parser loaded previously.
+
+Parsing XML file: e_faecium_clade2_rs.xml
+  File encoding: MacRoman
+Looking for plugins in /Users/sebastianducheneAIr/Desktop/sandbox/bacterial_rates_notebooks/summarise_xmls/plugins
+dr.xml.XMLParseException: The '<taxa>' element with id, 'taxa', is incorrectly constructed.
+The following was expected:
+Any number of ELEMENT of type Taxa REQUIRED
+	at dr.xml.AbstractXMLObjectParser.parseXMLObject(Unknown Source)
+	at dr.xml.XMLParser.convert(Unknown Source)
+	at dr.xml.XMLParser.convert(Unknown Source)
+	at dr.xml.XMLParser.parse(Unknown Source)
+	at dr.app.beast.BeastMain.<init>(Unknown Source)
+	at dr.app.beast.BeastMain.main(Unknown Source)
+Jul 11, 2015 3:10:26 PM dr.app.beast.BeastMain <init>
+SEVERE: Parsing error - poorly formed BEAST file, e_faecium_clade2_rs.xml:
+The '<taxa>' element with id, 'taxa', is incorrectly constructed.
+The following was expected:
+Any number of ELEMENT of type Taxa REQUIRED
+java.lang.RuntimeException: Terminate
+	at dr.app.beast.BeastMain.<init>(Unknown Source)
+	at dr.app.beast.BeastMain.main(Unknown Source)
+Attempting theta (56/101) = 0.06982994702686253 for 1000 iterations + 100 burnin.
+Attempting theta (55/101) = 0.07513796677715448 for 1000 iterations + 100 burnin.
+Attempting theta (57/101) = 0.06479014048349967 for 1000 iterations + 100 burnin.
+Attempting theta (56/101) = 0.06982994702686253 for 1000 iterations + 100 burnin.
+Attempting theta (58/101) = 0.06001062988820621 for 1000 iterations + 100 burnin.
+Attempting theta (57/101) = 0.06479014048349967 for 1000 iterations + 100 burnin.
+Attempting theta (59/101) = 0.055483557742424465 for 1000 iterations + 100 burnin.
+
+                  BEAST v1.8.2, 2002-2015
+       Bayesian Evolutionary Analysis Sampling Trees
+                 Designed and developed by
+   Alexei J. Drummond, Andrew Rambaut and Marc A. Suchard
+                              
+               Department of Computer Science
+                   University of Auckland
+                  alexei@cs.auckland.ac.nz
+                              
+             Institute of Evolutionary Biology
+                  University of Edinburgh
+                     a.rambaut@ed.ac.uk
+                              
+              David Geffen School of Medicine
+           University of California, Los Angeles
+                     msuchard@ucla.edu
+                              
+                Downloads, Help & Resources:
+                 	http://beast.bio.ed.ac.uk
+                              
+Source code distributed under the GNU Lesser General Public License:
+            	http://code.google.com/p/beast-mcmc
+                              
+                     BEAST developers:
+	Alex Alekseyenko, Guy Baele, Trevor Bedford, Filip Bielejec, Erik Bloomquist, Matthew Hall,
+	Joseph Heled, Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li,
+	Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel,
+          	Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                              
+                         Thanks to:
+    	Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Using BEAGLE library v1.x for accelerated, parallel likelihood evaluation
+2009-2013, BEAGLE Working Group - http://beagle-lib.googlecode.com/
+Citation: Ayres et al (2012) Systematic Biology 61: 170-173 | doi:10.1093/sysbio/syr100
+
+WARNING: You are currenly using BEAGLE v1.x. For best performance and compatibility
+with models in BEAST, please upgrade to BEAGLE v2.x at http://beagle-lib.googlecode.com/
+
+
+Random number seed: 1436620228767
+
+Attempting theta (58/101) = 0.06001062988820621 for 1000 iterations + 100 burnin.
+
+Failed to load parser: dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+line = dr.inferencexml.trace.GeneralizedHarmonicMeanAnalysisParser
+
+
+Attempting theta (60/101) = 0.051201127231133854 for 1000 iterations + 100 burnin.
+
+Loading additional development parsers from development_parsers.properties, which is additional set of parsers only available for development version ...
+
+WARNING: parser - dr.app.beagle.multidimensionalscaling.MultiDimensionalScalingLikelihood in development_parsers.properties is duplicated, which is REPLACING the same parser loaded previously.
+
+Parsing XML file: e_faecium_clade2_sc.xml
+  File encoding: MacRoman
+Looking for plugins in /Users/sebastianducheneAIr/Desktop/sandbox/bacterial_rates_notebooks/summarise_xmls/plugins
+dr.xml.XMLParseException: The '<taxa>' element with id, 'taxa', is incorrectly constructed.
+The following was expected:
+Any number of ELEMENT of type Taxa REQUIRED
+	at dr.xml.AbstractXMLObjectParser.parseXMLObject(Unknown Source)
+	at dr.xml.XMLParser.convert(Unknown Source)
+	at dr.xml.XMLParser.convert(Unknown Source)
+	at dr.xml.XMLParser.parse(Unknown Source)
+	at dr.app.beast.BeastMain.<init>(Unknown Source)
+	at dr.app.beast.BeastMain.main(Unknown Source)
+Jul 11, 2015 3:10:29 PM dr.app.beast.BeastMain <init>
+SEVERE: Parsing error - poorly formed BEAST file, e_faecium_clade2_sc.xml:
+The '<taxa>' element with id, 'taxa', is incorrectly constructed.
+The following was expected:
+Any number of ELEMENT of type Taxa REQUIRED
+java.lang.RuntimeException: Terminate
+	at dr.app.beast.BeastMain.<init>(Unknown Source)
+	at dr.app.beast.BeastMain.main(Unknown Source)
+Attempting theta (59/101) = 0.055483557742424465 for 1000 iterations + 100 burnin.
+Attempting theta (61/101) = 0.04715560318259695 for 1000 iterations + 100 burnin.
+Attempting theta (60/101) = 0.051201127231133854 for 1000 iterations + 100 burnin.
+Attempting theta (62/101) = 0.043339313066983146 for 1000 iterations + 100 burnin.
+Attempting theta (63/101) = 0.039744648036453514 for 1000 iterations + 100 burnin.
+Attempting theta (61/101) = 0.04715560318259695 for 1000 iterations + 100 burnin.
+Attempting theta (64/101) = 0.03636406400953165 for 1000 iterations + 100 burnin.
+Attempting theta (62/101) = 0.043339313066983146 for 1000 iterations + 100 burnin.
+Attempting theta (65/101) = 0.033190082802857665 for 1000 iterations + 100 burnin.
+Attempting theta (63/101) = 0.039744648036453514 for 1000 iterations + 100 burnin.
+Attempting theta (66/101) = 0.030215293313728214 for 1000 iterations + 100 burnin.
+Attempting theta (64/101) = 0.03636406400953165 for 1000 iterations + 100 burnin.
+Attempting theta (67/101) = 0.027432352757170694 for 1000 iterations + 100 burnin.
+Attempting theta (65/101) = 0.033190082802857665 for 1000 iterations + 100 burnin.
+Attempting theta (68/101) = 0.024833987961691194 for 1000 iterations + 100 burnin.
+Attempting theta (66/101) = 0.030215293313728214 for 1000 iterations + 100 burnin.
+Attempting theta (69/101) = 0.0224129967282808 for 1000 iterations + 100 burnin.
+Attempting theta (67/101) = 0.027432352757170694 for 1000 iterations + 100 burnin.
+Attempting theta (70/101) = 0.02016224925777198 for 1000 iterations + 100 burnin.
+Attempting theta (68/101) = 0.024833987961691194 for 1000 iterations + 100 burnin.
+Attempting theta (71/101) = 0.018074689652218572 for 1000 iterations + 100 burnin.
+Attempting theta (69/101) = 0.0224129967282808 for 1000 iterations + 100 burnin.
+Attempting theta (72/101) = 0.016143337496641163 for 1000 iterations + 100 burnin.
+Attempting theta (73/101) = 0.014361289528251987 for 1000 iterations + 100 burnin.
+Attempting theta (70/101) = 0.02016224925777198 for 1000 iterations + 100 burnin.
+Attempting theta (74/101) = 0.01272172140116927 for 1000 iterations + 100 burnin.
+Attempting theta (71/101) = 0.018074689652218572 for 1000 iterations + 100 burnin.
+Attempting theta (75/101) = 0.011217889555676173 for 1000 iterations + 100 burnin.
+Attempting theta (72/101) = 0.016143337496641163 for 1000 iterations + 100 burnin.
+Attempting theta (76/101) = 0.009843133202303695 for 1000 iterations + 100 burnin.
+Attempting theta (73/101) = 0.014361289528251987 for 1000 iterations + 100 burnin.
+Attempting theta (77/101) = 0.008590876432461226 for 1000 iterations + 100 burnin.
+Attempting theta (74/101) = 0.01272172140116927 for 1000 iterations + 100 burnin.
+Attempting theta (78/101) = 0.007454630469050414 for 1000 iterations + 100 burnin.
+Attempting theta (75/101) = 0.011217889555676173 for 1000 iterations + 100 burnin.
+Attempting theta (79/101) = 0.006427996072542175 for 1000 iterations + 100 burnin.
+Attempting theta (76/101) = 0.009843133202303695 for 1000 iterations + 100 burnin.
+Attempting theta (80/101) = 0.0055046661204539325 for 1000 iterations + 100 burnin.
+Attempting theta (77/101) = 0.008590876432461226 for 1000 iterations + 100 burnin.
+Attempting theta (81/101) = 0.004678428381140585 for 1000 iterations + 100 burnin.
+Attempting theta (78/101) = 0.007454630469050414 for 1000 iterations + 100 burnin.
+Attempting theta (82/101) = 0.003943168506448259 for 1000 iterations + 100 burnin.
+Attempting theta (83/101) = 0.0032928732722604936 for 1000 iterations + 100 burnin.
+Attempting theta (79/101) = 0.006427996072542175 for 1000 iterations + 100 burnin.
+Attempting theta (84/101) = 0.002721634101543468 for 1000 iterations + 100 burnin.
+Attempting theta (80/101) = 0.0055046661204539325 for 1000 iterations + 100 burnin.
+Attempting theta (85/101) = 0.002223650911514547 for 1000 iterations + 100 burnin.
+Attempting theta (81/101) = 0.004678428381140585 for 1000 iterations + 100 burnin.
+Attempting theta (86/101) = 0.0017932363354956555 for 1000 iterations + 100 burnin.
+Attempting theta (82/101) = 0.003943168506448259 for 1000 iterations + 100 burnin.
+Attempting theta (87/101) = 0.001424820381547943 for 1000 iterations + 100 burnin.
+Attempting theta (83/101) = 0.0032928732722604936 for 1000 iterations + 100 burnin.
+Attempting theta (88/101) = 0.0011129556050964646 for 1000 iterations + 100 burnin.
+Attempting theta (84/101) = 0.002721634101543468 for 1000 iterations + 100 burnin.
+Attempting theta (89/101) = 8.5232289288861E-4 for 1000 iterations + 100 burnin.
+Attempting theta (85/101) = 0.002223650911514547 for 1000 iterations + 100 burnin.
+Attempting theta (90/101) = 6.377379829750564E-4 for 1000 iterations + 100 burnin.
+Attempting theta (91/101) = 4.6415888336127784E-4 for 1000 iterations + 100 burnin.
+Attempting theta (86/101) = 0.0017932363354956555 for 1000 iterations + 100 burnin.
+Attempting theta (92/101) = 3.2669440602401713E-4 for 1000 iterations + 100 burnin.
+Underflow calculating likelihood. Attempting a rescaling...
+Attempting theta (87/101) = 0.001424820381547943 for 1000 iterations + 100 burnin.
+Attempting theta (93/101) = 2.2061411225926482E-4 for 1000 iterations + 100 burnin.
+Underflow calculating likelihood. Attempting a rescaling...
+Underflow calculating likelihood. Attempting a rescaling...
+Underflow calculating likelihood. Attempting a rescaling...
+Underflow calculating likelihood. Attempting a rescaling...
+Attempting theta (94/101) = 1.4136008578343349E-4 for 1000 iterations + 100 burnin.
+Attempting theta (88/101) = 0.0011129556050964646 for 1000 iterations + 100 burnin.
+Attempting theta (95/101) = 8.45611410492474E-5 for 1000 iterations + 100 burnin.
+Attempting theta (96/101) = 4.605039373300482E-5 for 1000 iterations + 100 burnin.
+Attempting theta (97/101) = 2.1887692117461713E-5 for 1000 iterations + 100 burnin.
+Attempting theta (89/101) = 8.5232289288861E-4 for 1000 iterations + 100 burnin.
+Attempting theta (98/101) = 8.389527766075414E-6 for 1000 iterations + 100 burnin.
+Attempting theta (99/101) = 2.171534093275924E-6 for 1000 iterations + 100 burnin.
+Attempting theta (90/101) = 6.377379829750564E-4 for 1000 iterations + 100 burnin.
+Attempting theta (100/101) = 2.1544346900318824E-7 for 1000 iterations + 100 burnin.
+Attempting theta (101/101) = 0.0 for 1000 iterations + 100 burnin.
+1 file(s) found with marginal likelihood samples
+PathParameter	MeanPathLikelihood	MLContribution
+0.0000	-62627	-0.013914
+2.1544e-07	-66537	-0.12875
+2.1715e-06	-65105	-0.39731
+8.3895e-06	-62689	-0.82853
+2.1888e-05	-60073	-1.4507
+4.6050e-05	-60002	-2.3059
+8.4561e-05	-59751	-3.3023
+0.00014136	-56529	-4.4332
+0.00022061	-55345	-5.6404
+0.00032669	-50997	-7.3327
+0.00046416	-55688	-9.4230
+0.00063774	-52885	-10.797
+0.00085232	-47745	-12.561
+0.0011130	-48647	-13.668
+0.0014248	-39008	-13.998
+0.0017932	-36980	-15.318
+0.0022237	-34197	-16.527
+0.0027216	-32178	-18.180
+0.0032929	-31474	-19.716
+0.0039432	-29162	-20.977
+0.0046784	-27897	-23.325
+0.0055047	-28562	-25.725
+0.0064280	-27160	-27.443
+0.0074546	-26301	-29.936
+0.0085909	-26391	-32.199
+0.0098431	-25035	-33.673
+0.011218	-23952	-35.611
+0.012722	-23409	-37.866
+0.014361	-22782	-41.268
+0.016143	-23533	-44.493
+0.018075	-22541	-47.195
+0.020162	-22675	-49.727
+0.022413	-21512	-51.622
+0.024834	-21133	-54.634
+0.027432	-20920	-57.995
+0.030215	-20759	-61.782
+0.033190	-20778	-65.107
+0.036364	-20247	-68.509
+0.039745	-20284	-72.763
+0.043339	-20200	-76.368
+0.047156	-19822	-80.265
+0.051201	-19859	-84.949
+0.055484	-19815	-89.204
+0.060011	-19594	-93.139
+0.064790	-19380	-97.235
+0.069830	-19207	-101.97
+0.075138	-19215	-106.95
+0.080722	-19090	-112.03
+0.086591	-19090	-117.22
+0.092751	-18962	-122.52
+0.099213	-18961	-127.77
+0.10598	-18786	-133.17
+0.11307	-18798	-139.25
+0.12048	-18777	-145.05
+0.12823	-18676	-151.32
+0.13631	-18745	-158.12
+0.14475	-18732	-164.57
+0.15355	-18681	-171.15
+0.16271	-18669	-178.21
+0.17226	-18688	-185.43
+0.18218	-18675	-192.40
+0.19250	-18615	-199.15
+0.20322	-18534	-206.37
+0.21436	-18540	-214.20
+0.22591	-18541	-221.41
+0.23789	-18416	-228.56
+0.25031	-18388	-236.61
+0.26318	-18389	-244.90
+0.27650	-18375	-253.34
+0.29029	-18373	-262.20
+0.30455	-18396	-271.21
+0.31930	-18390	-281.18
+0.33454	-18514	-291.53
+0.35028	-18529	-301.64
+0.36653	-18592	-311.58
+0.38330	-18563	-322.04
+0.40060	-18662	-333.16
+0.41844	-18685	-344.06
+0.43683	-18732	-354.85
+0.45578	-18722	-365.23
+0.47530	-18705	-376.03
+0.49539	-18721	-387.24
+0.51608	-18726	-398.44
+0.53735	-18723	-409.65
+0.55924	-18712	-420.93
+0.58174	-18700	-432.69
+0.60487	-18716	-444.37
+0.62863	-18682	-456.57
+0.65304	-18726	-469.42
+0.67811	-18728	-483.59
+0.70384	-18858	-499.24
+0.73025	-18951	-515.42
+0.75734	-19096	-532.07
+0.78513	-19197	-550.53
+0.81363	-19442	-574.85
+0.84284	-19915	-604.75
+0.87278	-20484	-636.09
+0.90345	-20989	-664.41
+0.93488	-21301	-696.49
+0.96705	-21988	-732.76
+1.0000	-22494	
+
+log marginal likelihood (using path sampling) from pathLikelihood.delta = -19394.906959070453
+
+Inner area for path parameter in (2.1544e-07,0.96705) = -19395
+
+1 file(s) found with marginal likelihood samples
+PathParameter	MaxPathLikelihood	MLContribution
+0.0000	-62627	-0.013493
+2.1544e-07	-66537	-0.13015
+2.1715e-06	-65105	-0.40482
+8.3895e-06	-62689	-0.84618
+2.1888e-05	-60073	-1.4515
+4.6050e-05	-60002	-2.3107
+8.4561e-05	-59751	-3.3938
+0.00014136	-56529	-4.4802
+0.00022061	-55345	-5.8710
+0.00032669	-50997	-7.0103
+0.00046416	-55688	-9.6662
+0.00063774	-52885	-11.348
+0.00085232	-47745	-12.444
+0.0011130	-48647	-15.171
+0.0014248	-39008	-14.371
+0.0017932	-36980	-15.917
+0.0022237	-34197	-17.029
+0.0027216	-32178	-18.381
+0.0032929	-31474	-20.467
+0.0039432	-29162	-21.441
+0.0046784	-27897	-23.050
+0.0055047	-28562	-26.372
+0.0064280	-27160	-27.883
+0.0074546	-26301	-29.885
+0.0085909	-26391	-33.048
+0.0098431	-25035	-34.418
+0.011218	-23952	-36.020
+0.012722	-23409	-38.380
+0.014361	-22782	-40.598
+0.016143	-23533	-45.451
+0.018075	-22541	-47.056
+0.020162	-22675	-51.035
+0.022413	-21512	-52.081
+0.024834	-21133	-54.910
+0.027432	-20920	-58.220
+0.030215	-20759	-61.753
+0.033190	-20778	-65.950
+0.036364	-20247	-68.446
+0.039745	-20284	-72.914
+0.043339	-20200	-77.089
+0.047156	-19822	-80.191
+0.051201	-19859	-85.043
+0.055484	-19815	-89.702
+0.060011	-19594	-93.652
+0.064790	-19380	-97.671
+0.069830	-19207	-101.95
+0.075138	-19215	-107.30
+0.080722	-19090	-112.03
+0.086591	-19090	-117.61
+0.092751	-18962	-122.52
+0.099213	-18961	-128.36
+0.10598	-18786	-133.13
+0.11307	-18798	-139.33
+0.12048	-18777	-145.44
+0.12823	-18676	-151.04
+0.13631	-18745	-158.17
+0.14475	-18732	-164.79
+0.15355	-18681	-171.21
+0.16271	-18669	-178.12
+0.17226	-18688	-185.49
+0.18218	-18675	-192.72
+0.19250	-18615	-199.58
+0.20322	-18534	-206.34
+0.21436	-18540	-214.20
+0.22591	-18541	-222.16
+0.23789	-18416	-228.73
+0.25031	-18388	-236.60
+0.26318	-18389	-244.99
+0.27650	-18375	-253.36
+0.29029	-18373	-262.03
+0.30455	-18396	-271.26
+0.31930	-18390	-280.23
+0.33454	-18514	-291.41
+0.35028	-18529	-301.13
+0.36653	-18592	-311.82
+0.38330	-18563	-321.18
+0.40060	-18662	-332.96
+0.41844	-18685	-343.62
+0.43683	-18732	-354.95
+0.45578	-18722	-365.39
+0.47530	-18705	-375.86
+0.49539	-18721	-387.19
+0.51608	-18726	-398.46
+0.53735	-18723	-409.77
+0.55924	-18712	-421.06
+0.58174	-18700	-432.50
+0.60487	-18716	-444.78
+0.62863	-18682	-456.03
+0.65304	-18726	-469.39
+0.67811	-18728	-481.91
+0.70384	-18858	-498.01
+0.73025	-18951	-513.46
+0.75734	-19096	-530.66
+0.78513	-19197	-547.04
+0.81363	-19442	-567.94
+0.84284	-19915	-596.22
+0.87278	-20484	-628.36
+0.90345	-20989	-659.51
+0.93488	-21301	-685.45
+0.96705	-21988	-724.41
+1.0000	-22494	
+
+log marginal likelihood (using stepping stone sampling) from pathLikelihood.delta = -19352.165958593258
+
+1.5910333333333333 minutes 
+Attempting theta (91/101) = 4.6415888336127784E-4 for 1000 iterations + 100 burnin.
+Attempting theta (92/101) = 3.2669440602401713E-4 for 1000 iterations + 100 burnin.
+Attempting theta (93/101) = 2.2061411225926482E-4 for 1000 iterations + 100 burnin.
+Attempting theta (94/101) = 1.4136008578343349E-4 for 1000 iterations + 100 burnin.
+Attempting theta (95/101) = 8.45611410492474E-5 for 1000 iterations + 100 burnin.
+Attempting theta (96/101) = 4.605039373300482E-5 for 1000 iterations + 100 burnin.
+Underflow calculating likelihood. Attempting a rescaling...
+Underflow calculating likelihood. Attempting a rescaling...
+Attempting theta (97/101) = 2.1887692117461713E-5 for 1000 iterations + 100 burnin.
+Underflow calculating likelihood. Attempting a rescaling...
+Underflow calculating likelihood. Attempting a rescaling...
+Attempting theta (98/101) = 8.389527766075414E-6 for 1000 iterations + 100 burnin.
+Attempting theta (99/101) = 2.171534093275924E-6 for 1000 iterations + 100 burnin.
+Attempting theta (100/101) = 2.1544346900318824E-7 for 1000 iterations + 100 burnin.
+Attempting theta (101/101) = 0.0 for 1000 iterations + 100 burnin.
+1 file(s) found with marginal likelihood samples
+PathParameter	MeanPathLikelihood	MLContribution
+0.0000	-1.0881e+05	-0.024323
+2.1544e-07	-1.1699e+05	-0.18469
+2.1715e-06	-71852	-0.67438
+8.3895e-06	-1.4506e+05	-1.4601
+2.1888e-05	-71285	-1.7961
+4.6050e-05	-77384	-4.2460
+8.4561e-05	-1.4313e+05	-5.9394
+0.00014136	-66011	-4.8820
+0.00022061	-57188	-5.9520
+0.00032669	-55030	-7.1520
+0.00046416	-49026	-7.9309
+0.00063774	-42354	-8.5151
+0.00085232	-37009	-9.2284
+0.0011130	-33806	-10.450
+0.0014248	-33210	-11.940
+0.0017932	-31607	-13.196
+0.0022237	-29712	-14.254
+0.0027216	-27537	-15.302
+0.0032929	-26038	-16.874
+0.0039432	-25858	-18.966
+0.0046784	-25732	-20.929
+0.0055047	-24931	-22.736
+0.0064280	-24317	-25.098
+0.0074546	-24577	-27.443
+0.0085909	-23728	-29.105
+0.0098431	-22756	-31.348
+0.011218	-22849	-33.978
+0.012722	-22340	-36.383
+0.014361	-22042	-39.192
+0.016143	-21944	-41.731
+0.018075	-21271	-44.279
+0.020162	-21152	-47.534
+0.022413	-21087	-51.349
+0.024834	-21333	-54.983
+0.027432	-20988	-58.011
+0.030215	-20702	-61.414
+0.033190	-20588	-65.257
+0.036364	-20532	-69.370
+0.039745	-20509	-72.783
+0.043339	-19986	-75.836
+0.047156	-19757	-79.533
+0.051201	-19562	-83.637
+0.055484	-19498	-88.382
+0.060011	-19548	-93.145
+0.064790	-19429	-97.676
+0.069830	-19333	-101.90
+0.075138	-19061	-106.42
+0.080722	-19055	-111.78
+0.086591	-19042	-117.12
+0.092751	-18978	-122.41
+0.099213	-18911	-127.80
+0.10598	-18843	-133.42
+0.11307	-18810	-139.93
+0.12048	-18949	-146.47
+0.12823	-18872	-152.34
+0.13631	-18800	-158.23
+0.14475	-18704	-164.76
+0.15355	-18753	-171.61
+0.16271	-18697	-178.21
+0.17226	-18660	-184.97
+0.18218	-18609	-191.94
+0.19250	-18591	-199.37
+0.20322	-18600	-207.21
+0.21436	-18626	-214.83
+0.22591	-18564	-222.62
+0.23789	-18594	-230.94
+0.25031	-18595	-239.54
+0.26318	-18638	-248.21
+0.27650	-18622	-257.41
+0.29029	-18716	-266.83
+0.30455	-18702	-276.62
+0.31930	-18818	-287.23
+0.33454	-18881	-297.44
+0.35028	-18913	-308.30
+0.36653	-19028	-319.29
+0.38330	-19045	-330.11
+0.40060	-19114	-341.49
+0.41844	-19167	-353.81
+0.43683	-19310	-367.07
+0.45578	-19433	-380.72
+0.47530	-19581	-394.23
+0.49539	-19656	-412.93
+0.51608	-20275	-433.86
+0.53735	-20503	-449.43
+0.55924	-20568	-463.72
+0.58174	-20648	-479.16
+0.60487	-20787	-495.58
+0.62863	-20921	-511.68
+0.65304	-21002	-528.95
+0.67811	-21203	-547.60
+0.70384	-21360	-568.48
+0.73025	-21694	-593.43
+0.75734	-22112	-616.20
+0.78513	-22236	-641.05
+0.81363	-22757	-676.89
+0.84284	-23586	-722.77
+0.87278	-24698	-762.78
+0.90345	-25035	-795.32
+0.93488	-25587	-828.69
+0.96705	-25918	-868.67
+1.0000	-26814	
+
+log marginal likelihood (using path sampling) from pathLikelihood.delta = -20959.886374843798
+
+Inner area for path parameter in (2.1544e-07,0.96705) = -20960
+
+1 file(s) found with marginal likelihood samples
+PathParameter	MaxPathLikelihood	MLContribution
+0.0000	-1.0881e+05	-0.023442
+2.1544e-07	-1.1699e+05	-0.22883
+2.1715e-06	-71852	-0.44678
+8.3895e-06	-1.4506e+05	-1.9580
+2.1888e-05	-71285	-1.7224
+4.6050e-05	-77384	-2.9801
+8.4561e-05	-1.4313e+05	-8.1295
+0.00014136	-66011	-5.2317
+0.00022061	-57188	-6.0665
+0.00032669	-55030	-7.5646
+0.00046416	-49026	-8.5099
+0.00063774	-42354	-9.0886
+0.00085232	-37009	-9.6458
+0.0011130	-33806	-10.543
+0.0014248	-33210	-12.235
+0.0017932	-31607	-13.604
+0.0022237	-29712	-14.796
+0.0027216	-27537	-15.730
+0.0032929	-26038	-16.932
+0.0039432	-25858	-19.013
+0.0046784	-25732	-21.260
+0.0055047	-24931	-23.019
+0.0064280	-24317	-24.965
+0.0074546	-24577	-27.926
+0.0085909	-23728	-29.714
+0.0098431	-22756	-31.283
+0.011218	-22849	-34.361
+0.012722	-22340	-36.628
+0.014361	-22042	-39.280
+0.016143	-21944	-42.381
+0.018075	-21271	-44.403
+0.020162	-21152	-47.607
+0.022413	-21087	-51.052
+0.024834	-21333	-55.430
+0.027432	-20988	-58.410
+0.030215	-20702	-61.583
+0.033190	-20588	-65.346
+0.036364	-20532	-69.409
+0.039745	-20509	-73.722
+0.043339	-19986	-76.274
+0.047156	-19757	-79.927
+0.051201	-19562	-83.774
+0.055484	-19498	-88.269
+0.060011	-19548	-93.429
+0.064790	-19429	-97.918
+0.069830	-19333	-102.62
+0.075138	-19061	-106.44
+0.080722	-19055	-111.82
+0.086591	-19042	-117.32
+0.092751	-18978	-122.62
+0.099213	-18911	-128.03
+0.10598	-18843	-133.53
+0.11307	-18810	-139.42
+0.12048	-18949	-146.77
+0.12823	-18872	-152.63
+0.13631	-18800	-158.64
+0.14475	-18704	-164.54
+0.15355	-18753	-171.87
+0.16271	-18697	-178.39
+0.17226	-18660	-185.22
+0.18218	-18609	-192.03
+0.19250	-18591	-199.33
+0.20322	-18600	-207.07
+0.21436	-18626	-215.18
+0.22591	-18564	-222.44
+0.23789	-18594	-230.94
+0.25031	-18595	-239.26
+0.26318	-18638	-248.31
+0.27650	-18622	-256.76
+0.29029	-18716	-266.93
+0.30455	-18702	-275.77
+0.31930	-18818	-286.75
+0.33454	-18881	-297.19
+0.35028	-18913	-307.36
+0.36653	-19028	-319.14
+0.38330	-19045	-329.52
+0.40060	-19114	-341.01
+0.41844	-19167	-352.49
+0.43683	-19310	-365.91
+0.45578	-19433	-379.28
+0.47530	-19581	-393.47
+0.49539	-19656	-406.53
+0.51608	-20275	-431.43
+0.53735	-20503	-448.72
+0.55924	-20568	-462.82
+0.58174	-20648	-477.55
+0.60487	-20787	-493.99
+0.62863	-20921	-510.69
+0.65304	-21002	-526.44
+0.67811	-21203	-545.59
+0.70384	-21360	-564.06
+0.73025	-21694	-587.77
+0.75734	-22112	-614.48
+0.78513	-22236	-633.62
+0.81363	-22757	-664.78
+0.84284	-23586	-706.13
+0.87278	-24698	-757.61
+0.90345	-25035	-786.65
+0.93488	-25587	-823.36
+0.96705	-25918	-853.91
+1.0000	-26814	
+
+log marginal likelihood (using stepping stone sampling) from pathLikelihood.delta = -20863.96422530456
+
+2.1155 minutes 
