@@ -98,22 +98,22 @@ run_mcmc <- function(tree, is_observed, start_par, n_steps, basic_variance){
 
 
 ###################
-tr <- read.tree('tree_states_alpha.tree')
-states <- read.table('tree_states_alpha.csv', head = T, sep = ',')
+#tr <- read.tree('tree_states_alpha.tree')
+#states <- read.table('tree_states_alpha.csv', head = T, sep = ',')
 
-is_observed <- states[, 2]
-	    is_observed <- rnorm(length(is_observed), 0, 0.1)
-names(is_observed) <- c(1:length(is_observed))
+#is_observed <- states[, 2]
+#	    is_observed <- rnorm(length(is_observed), 0, 0.1)
+#names(is_observed) <- c(1:length(is_observed))
 
 
 
-m1 <- run_mcmc(tree = tr, is_observed = is_observed, start_par = c(1, 1, 1), n_steps = 500, basic_variance = .1)
-pdf('out_alpha.pdf')
-par(mfrow = c(3, 2))
-plot(m1[100:nrow(m1), 5])#, type = 'l', col = rgb(1, 0, 0, 0.5))
-hist(m1[100:nrow(m1), 5])#, col = rgb(1, 0, 0, 0.5))
-plot(m1[100:nrow(m1), 6])#, type = 'l', col = rgb(1, 0, 0, 0.5))
-hist(m1[100:nrow(m1), 6])#, col = rgb(1, 0, 0, 0.5))
-plot(m1[100:nrow(m1), 7])#, type = 'l', col = rgb(1, 0, 0, 0.5))
-hist(m1[100:nrow(m1), 7])#, col = rgb(1, 0, 0, 0.5))
-dev.off()
+#m1 <- run_mcmc(tree = tr, is_observed = is_observed, start_par = c(1, 1, 1), n_steps = 500, basic_variance = .1)
+#pdf('out_alpha.pdf')
+#par(mfrow = c(3, 2))
+#plot(m1[100:nrow(m1), 5])#, type = 'l', col = rgb(1, 0, 0, 0.5))
+#hist(m1[100:nrow(m1), 5])#, col = rgb(1, 0, 0, 0.5))
+#plot(m1[100:nrow(m1), 6])#, type = 'l', col = rgb(1, 0, 0, 0.5))
+#hist(m1[100:nrow(m1), 6])#, col = rgb(1, 0, 0, 0.5))
+#plot(m1[100:nrow(m1), 7])#, type = 'l', col = rgb(1, 0, 0, 0.5))
+#hist(m1[100:nrow(m1), 7])#, col = rgb(1, 0, 0, 0.5))
+#dev.off()

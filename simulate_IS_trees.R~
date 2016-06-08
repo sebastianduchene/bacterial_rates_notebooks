@@ -2,9 +2,10 @@
 
 library(NELSI)
 
-simulate_IS <- function(tree, root_state, par){
-    alpha <- par[1]
-    beta <- par[2]
+simulate_IS <- function(tree, root_state, par, basic_variance){
+    alpha <- par[1] # time variance weight 
+    beta <- par[2] # IS variance weight
+    gamma <- par[3] # base variance weight. Usually set to 1 for a stochastic process
     node_ages <- allnode.times(tree)
     node_ages <- abs(node_ages - max(node_ages))
     root_node <- unique(tree$edge[!(tr$edge[, 1] %in% tree$edge[, 2]), 1])
@@ -25,7 +26,8 @@ simulate_IS <- function(tree, root_state, par){
                 diff_times <- abs(node_ages[names(node_ages) == nodes_i[i]] - node_ages[names(node_ages) == nodes_i[i-1]])
                 nu_time <- diff_times * alpha
                 nu_state <- abs(node_states[node_states[, 1] == nodes_i[i-1], 2]) * beta
-                nu_total <- nu_time + nu_state
+		nu_base <- basic_variance * par[3]
+                nu_total <- nu_time + nu_state + nu_base
                 new_state <- node_states[node_states[, 1] == nodes_i[i-1], 2] + (rnorm(1, 0, nu_total))
                 node_states[node_states[, 1] == nodes_i[i], 2] <- new_state
                 tips_traces[[tip]][[1]] <- c(tips_traces[[tip]][[1]], diff_times)
@@ -45,8 +47,8 @@ simulate_IS <- function(tree, root_state, par){
 
 tr <- rtree(200)
 
-sim_1 <- simulate_IS(tr, root_state = 200, par = c(1, 100))
-sim_2 <- simulate_IS(tr, root_state = 200, par = c(1, 0.1))
+sim_1 <- simulate_IS(tr, root_state = 200, par = c(1, 100, 1), 0.1)
+sim_2 <- simulate_IS(tr, root_state = 200, par = c(1, 0.1, 1), 0.1)
 
 par(mfrow = c(2, 2))
 plot(sim_1[, 1], sim_1[, 2])

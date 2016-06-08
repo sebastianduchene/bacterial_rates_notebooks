@@ -47,13 +47,27 @@ simulate_IS <- function(tree, root_state, par, basic_variance){
 
 tr <- rtree(200)
 
-sim_1 <- simulate_IS(tr, root_state = 200, par = c(1, 100, 1), 0.1)
-sim_2 <- simulate_IS(tr, root_state = 200, par = c(1, 0.1, 1), 0.1)
+sim_1 <- simulate_IS(tr, root_state = 200, par = c(0, 0, 0), 0.1)
+write.tree(tr, 'test_0_0_0.tree')
+write.table(sim_1, file = 'test_0_0_0.csv', sep = ',', row.names = F)
 
-par(mfrow = c(2, 2))
-plot(sim_1[, 1], sim_1[, 2])
-plot(tr, show.tip.label = F)
-nodelabels(frame = 'circle')
+sim_2 <- simulate_IS(tr, root_state = 200, par = c(5, 0, 0), 0.1)
+write.tree(tr, 'test_5_0_0.tree')
+write.table(sim_2, file = 'test_5_0_0.csv', sep = ',', row.names = F)
 
-plot(sim_2[, 1], sim_2[, 2])
-plot(tr, show.tip.label = F)
+sim_3 <- simulate_IS(tr, root_state = 200, par = c(0, 5, 0), 0.1)
+write.tree(tr, 'test_0_5_0.tree')
+write.table(sim_3, file = 'test_0_5_0.csv', sep = ',', row.names = F)
+
+sim_4 <- simulate_IS(tr, root_state = 200, par = c(0, 0, 5), 0.1)
+write.tree(tr, 'test_0_0_5.tree')
+write.table(sim_4, file = 'test_0_0_5.csv', sep = ',', row.names = F)
+
+sim_5 <- simulate_IS(tr, root_state = 200, par = c(5, 5, 5), 0.1)
+write.tree(tr, 'test_5_5_5.tree')
+write.table(sim_5, file = 'test_5_5_5.csv', sep = ',', row.names = F)
+
+
+
+
+
