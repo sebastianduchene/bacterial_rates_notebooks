@@ -1,17 +1,16 @@
 library(NELSI)
-options(width = 150)
 
 likelihood_function <- function(tree, is_observed, par){
     
     get_variances <- function(path_times, path_is, alpha, beta){
-      # Note that times should start from zero and increase
-        single_variances <- vector()
-        for(i in 2:length(path_times)){
-           var_time <- (path_times[i] - path_times[i-1]) * alpha
-           var_is <- abs(path_is[i-1] * beta)
-           single_variances[i-1] <- var_time + var_is
-        }
-        return(single_variances)
+    # Note that times should start from zero and increase
+    single_variances <- vector()
+    for(i in 2:length(path_times)){
+        var_time <- (path_times[i] - path_times[i-1]) * alpha
+        var_is <- abs(path_is[i-1] * beta)
+        single_variances[i-1] <- var_time + var_is
+    }
+    return(single_variances)
     }
     
     alpha <- par[1]
@@ -24,7 +23,7 @@ likelihood_function <- function(tree, is_observed, par){
     for(tip in 1:length(tree$tip.label)){
         path <- get.ancestor.nodes.branches(tree, tip)$ancestor.nodes
         path_times <- times[names(times) %in% path]
-        path_times <- c(path_times[2:length(path_times)], path_times[1]) 
+        path_times <- c(path_times[2:length(path_times)], path_times[1])
         path_is <- is_observed[names(is_observed) %in% path]
         path_is <- c(path_is[2:length(path_is)], path_is[1])
         ## And only for nodes for which the likelihood has not been calculated. 
@@ -35,11 +34,8 @@ likelihood_function <- function(tree, is_observed, par){
         variances <- get_variances(path_times, path_is, alpha, beta)
         single_likelihoods <- log(dnorm(path_is[-1], 0, variances))
         likelihoods[tip] <- sum(single_likelihoods)
-	
     }
-    sum_likelihoods <- sum(likelihoods)
-    if(sum_likelihoods == Inf | sum_likelihoods == -Inf) stop('Error. Likelihood overflow or underflow')
-    return(sum_likelihoods)
+    return(sum(likelihoods))
 }
 
 prior_function <- function(par){
@@ -60,8 +56,8 @@ run_mcmc <- function(tree, is_observed, start_par, n_steps){
     output_log[1, ] <- c(1, start_likelihood, start_prior, start_posterior, start_par)
     
     proposal_function <- function(par){
-        alpha_proposed <- abs(par[1] + rnorm(1, 0, 0.1))
-        beta_propsed <- abs(par[2] + rnorm(1, 0, 0.1))
+        alpha_proposed <- abs(par[1] + rnorm(1, 0, 0.5))
+        beta_propsed <- abs(par[2] + rnorm(1, 0, 0.5))
         return(c(alpha_proposed, beta_propsed))
     }
     
@@ -83,31 +79,17 @@ run_mcmc <- function(tree, is_observed, start_par, n_steps){
                         output_log[i, 1] <- i
                         }
                 }
-        if(i%%10 == 0){
-	   out <- output_log[i, ]
-	   names(out) <- NULL
-           print(out)
-        }
     }
     
     return(output_log)
 }
 
 
-###################
-tr <- read.tree('tree_states_alpha.tree')
-states <- read.table('tree_states_alpha.csv', head = T, sep = ',')
+tr <- read.tree('tree_states.tree')
+states <- read.table('tree_states.csv', head = T, sep = ',')
 
 is_observed <- states[, 2]
-names(is_observed) <- c(1:length(is_observed))
+names(is_observed) <- c(1:199)
 
+m1 <- run_mcmc(tree = tr, is_observed = is_observed, start_par = c(0, 0.5), n_steps = 5000)
 
-
-m1 <- run_mcmc(tree = tr, is_observed = is_observed, start_par = c(1, 1), n_steps = 2000)
-pdf('out_alpha.pdf')
-par(mfrow = c(2, 2))
-plot(m1[1000:nrow(m1), 5])#, type = 'l', col = rgb(1, 0, 0, 0.5))
-hist(m1[1000:nrow(m1), 5])#, col = rgb(1, 0, 0, 0.5))
-plot(m1[1000:nrow(m1), 6])#, type = 'l', col = rgb(1, 0, 0, 0.5))
-hist(m1[1000:nrow(m1), 6])#, col = rgb(1, 0, 0, 0.5))
-dev.off()
