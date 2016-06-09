@@ -52,7 +52,7 @@ prior_function <- function(par){
 }
 
 
-run_mcmc <- function(tree, is_observed, start_par, n_steps, basic_variance){
+run_mcmc <- function(tree, is_observed, start_par, n_steps, basic_variance, output_name = 'out.txt'){
     start_likelihood <- likelihood_function(tree, is_observed, start_par, basic_variance)
     start_prior <- prior_function(start_par)
     start_posterior <- start_likelihood + start_prior
@@ -67,6 +67,10 @@ run_mcmc <- function(tree, is_observed, start_par, n_steps, basic_variance){
 	gamma_proposed <- abs(par[3] + rnorm(1, 0, 0.1))
         return(c(alpha_proposed, beta_propsed, gamma_proposed))
     }
+
+    cat(colnames(output_log), '\n', file = output_name)
+    cat(output_log[1, ], '\n', file = output_name, append = T)
+
     
     for(i in 2:n_steps){
         proposed_par <- proposal_function(output_log[i-1, c(5:7)])
@@ -86,6 +90,7 @@ run_mcmc <- function(tree, is_observed, start_par, n_steps, basic_variance){
                         output_log[i, 1] <- i
                         }
                 }
+	cat(output_log[i, ], '\n', file = output_name, append = T)
         if(i%%10 == 0){
 	   out <- output_log[i, ]
 	   names(out) <- NULL
